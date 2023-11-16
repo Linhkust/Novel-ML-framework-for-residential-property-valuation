@@ -9,11 +9,11 @@
 
 ## Abstract
 
-Automated valuation model (AVM) has been widely used by the real estate industry and financial institutions for automatic residential property valuation. Different machine learning (ML) models have been applied to develop the AVM due to their superior performances compared to traditional linear and spatial regression models. However, research on comprehensive machine learning pipelines considering different types of feature extractors and generators for AVM development from scratch is still lacking. Current AVM mainly uses numerical property and locational variables for property valuation, and how images are utilized for AVM development requires further exploration. Therefore, this paper proposes a novel machine learning pipeline considering different types of feature extractors and generators, and multi-source image fusion including exterior estate photos, street view images, and remote sensing images. Our proposed method includes three stages: data collection, tree-based ML pipeline creation, pipeline configuration and application. Distributed computing is applied to execute the tree-based ML pipelines, followed by optimal pipeline selection using statistical tests, and pipeline application. The results show that image-based features contribute significantly to housing price predictions and should be well considered in the AVM development. Features extracted from street view images and remote sensing images have larger feature importance than those of exterior estate photos. We benchmark the proposed method with two open-source automated machine learning (AutoML) framework: H2O and TPOT. The results show that our proposed machine learning framework outperforms H2O and TPOT in terms of prediction accuracy and execution time.
+The automated valuation model (AVM) has been widely used by the real estate industry and financial institutions for automatic residential property valuation. Different machine learning (ML) models have been applied to develop the AVM due to their superior performances compared to traditional linear and spatial regression models. However, research on comprehensive machine learning pipelines considering different types of feature extractors and generators for AVM development from scratch is still lacking. Current AVM mainly uses numerical property and locational variables for property valuation, and how images are utilized for AVM development requires further exploration. Therefore, this paper proposes a novel machine-learning pipeline considering different types of feature extractors and generators, and multi-source image fusion including exterior estate photos, street view images, and remote sensing images. Our proposed method includes three stages: data collection, tree-based ML pipeline creation, pipeline configuration, and application. Distributed computing is applied to execute the tree-based ML pipelines, followed by optimal pipeline selection using statistical tests, and pipeline application. The results show that image-based features contribute significantly to housing price predictions and should be well considered in the AVM development. Features extracted from street view images and remote sensing images have greater importance than those of exterior estate photos. We benchmark the proposed method with two open-source automated machine learning (AutoML) frameworks: H2O and TPOT. The results show that our proposed machine learning framework outperforms H2O and TPOT in terms of prediction accuracy and execution time.
 
 * We examined the effects of exterior housing photos, Google street view images, and remote sensing images on the housing price prediction accuracy; 
 * We improved the classical semantic segmentation model performance with computer vision foundation model for more accurate feature extraction
-* We improved the ML model performance by combining feature selection and hyperparameter optimization with a hybrid method of Bayesian optimization and hyperband (BOHB) and recursive feature elimination with cross validation (RFECV)
+* We improved the ML model performance by combining feature selection and hyperparameter optimization with a hybrid method of Bayesian optimization and hyperband (BOHB) and recursive feature elimination with cross-validation (RFECV)
 * We proposed a novel machine learning pipeline to determine the best features and ML model for AVM deployment and application
 
 
@@ -28,7 +28,7 @@ Automated valuation model (AVM) has been widely used by the real estate industry
 
 ### 1. Data Preparation
 
-This part mainly deals with tabular data clean and image retrieval (Google street view images and estate photos). You can download our collected Google street view images here, and estate photos [here](https://pan.baidu.com/s/14Ki5E8FDu3HdqKUSosJXqw?pwd=irhh ) via Baidu Cloud. Remote sensing images are imported into ArcGIS Pro to calculate NDVI, NDWI, NDBI. We have collected the Landsat-8 GeoTIFF files and stored them in the collected data/Landsat8. 
+This part mainly deals with tabular data cleaning and image retrieval (Google Street view images and estate photos). You can download our collected Google street view images here, and estate photos [here](https://pan.baidu.com/s/14Ki5E8FDu3HdqKUSosJXqw?pwd=irhh ) via Baidu Cloud. Remote sensing images are imported into ArcGIS Pro to calculate NDVI, NDWI, and NDBI. We have collected the Landsat-8 GeoTIFF files and stored them in the collected data/Landsat8. 
 
 
 
@@ -97,8 +97,10 @@ Our novel machine learning framework use different types of feature extractors a
 Inspried by the work of Martinez-de-Pison et al. (2019)[^1], we propose a hybrid method of BOHB and RFECV to integrate feature selection and hyperparameter optimization. The flowchart is shown as below:
 
 ```mermaid
-graph TD
-A[Stage 1: Use BOHB to search the optimal hyperparameters with All features] -->B[Stage 2: Use RFECV to select the optimal features with best hyperparameters of Stage 1] -->C[Stage 3: Use BOHB to search the optimal hyperparameters with the optimal features of Stage 2] -->D[Compare the optimal hyperparameters with all features in Stage 1 AND
+graph TD；
+A[Stage 1: Use BOHB to search the optimal hyperparameters with All features] -->B[Stage 2: Use RFECV to select the optimal features with best hyperparameters of Stage 1]；
+B[Stage 2: Use RFECV to select the optimal features with best hyperparameters of Stage 1]-->C[Stage 3: Use BOHB to search the optimal hyperparameters with the optimal features of Stage 2]；
+C[Stage 3: Use BOHB to search the optimal hyperparameters with the optimal features of Stage 2]-->D[Compare the optimal hyperparameters with all features in Stage 1 AND
 optimal hyperparameters of Stage 3 with optimal features in Stage 2 ]
 ```
 
