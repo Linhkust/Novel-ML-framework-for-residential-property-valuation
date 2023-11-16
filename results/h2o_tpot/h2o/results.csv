@@ -1,0 +1,3969 @@
+Feature set,Time,R squared,Optimal Pipeline
+set 1,15.59,0.8284687031939608,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_1_20230923_170934
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DeepLearning base models (used / total)  3/4
+# DRF base models (used / total)           1/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.5448291499286895
+RMSE: 1.5952520646997106
+MAE: 0.9277419241912728
+RMSLE: 0.1933472706052796
+Mean Residual Deviance: 2.5448291499286895
+R^2: 0.9502949921345137
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 25578.07778593326
+AIC: 37925.77479470481
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.059066790934523
+RMSE: 3.3255175222714617
+MAE: 1.3215634882152167
+RMSLE: 0.23024456155572443
+Mean Residual Deviance: 11.059066790934523
+R^2: 0.8147747221084392
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 203531.06522035896
+AIC: 96471.71385941273
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.30132   0.0446583  1.32366       1.30428       1.35096       1.29698       1.23071
+mean_residual_deviance  10.7649   3.91787    10.9623       9.80011       16.5905       10.8528       5.61871
+mse                     10.7649   3.91787    10.9623       9.80011       16.5905       10.8528       5.61871
+null_deviance           219771    41523.2    201384        254625        269914        203944        168987
+r2                      0.822399  0.0448955  0.799837      0.85789       0.770299      0.804486      0.879482
+residual_deviance       39744.9   14865.7    40308.3       36182         61998.9       39873.1       20362.2
+rmse                    3.23587   0.606272   3.31093       3.13051       4.07315       3.29435       2.37038
+rmsle                   0.229791  0.0085356  0.221974      0.238051      0.237395      0.231765      0.219772"
+set 2,16.22,0.8242400717400937,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_2_20230923_172511
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DeepLearning base models (used / total)  2/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.6297498127906325
+RMSE: 1.6216503361670271
+MAE: 0.9218230126188354
+RMSLE: 0.19039474547376273
+Mean Residual Deviance: 2.6297498127906325
+R^2: 0.9486363416056115
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 26431.615368358645
+AIC: 38255.700853348266
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.642363130520392
+RMSE: 3.262263498021028
+MAE: 1.3109041873837841
+RMSLE: 0.2297993030673423
+Mean Residual Deviance: 10.642363130520392
+R^2: 0.8217539774794175
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 195862.0510540973
+AIC: 95762.85196737829
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.28165   0.050721    1.26137       1.27495       1.35688       1.29634       1.21873
+mean_residual_deviance  10.3092   3.35768     9.57927       9.25731       15.1537       11.5437       6.01227
+mse                     10.3092   3.35768     9.57927       9.25731       15.1537       11.5437       6.01227
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.828824  0.0387493   0.82509       0.865761      0.790192      0.792039      0.87104
+residual_deviance       38046.1   12763.6     35223         34178         56629.5       42411.4       21788.5
+rmse                    3.176     0.527119    3.09504       3.04258       3.89278       3.3976        2.45199
+rmsle                   0.228605  0.00956672  0.218276      0.235931      0.238708      0.231317      0.218792"
+set 3,14.15,0.8240880201583852,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_3_20230923_174125
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       6/15
+# GBM base models (used / total)           1/8
+# DeepLearning base models (used / total)  3/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.854172301421131
+RMSE: 1.6894295787102613
+MAE: 1.0141474905875358
+RMSLE: 0.19287629758444078
+Mean Residual Deviance: 2.854172301421131
+R^2: 0.9442529740373472
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10044
+Null deviance: 514599.6647051907
+Residual deviance: 28687.285801583785
+AIC: 39080.80916221468
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.564505493262018
+RMSE: 3.2503085227808786
+MAE: 1.3481147810425627
+RMSLE: 0.23269586149151264
+Mean Residual Deviance: 10.564505493262018
+R^2: 0.8230579937015624
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 194429.15909799418
+AIC: 95629.71665632079
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.30985   0.0595731   1.34044       1.32052       1.38325       1.27687       1.22817
+mean_residual_deviance  10.3362   3.77137     10.5399       8.77604       16.0811       10.5694       5.71459
+mse                     10.3362   3.77137     10.5399       8.77604       16.0811       10.5694       5.71459
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.828932  0.0440524   0.807549      0.87274       0.777352      0.809592      0.877425
+residual_deviance       38158.6   14314.6     38755.3       32401.1       60095         38831.8       20709.7
+rmse                    3.17213   0.584995    3.24652       2.96244       4.01012       3.25105       2.39052
+rmsle                   0.231033  0.00911193  0.224195      0.240655      0.239687      0.230437      0.220192"
+set 4,14.75,0.834006897784958,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_4_20230923_175534
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       7/15
+# GBM base models (used / total)           2/8
+# DeepLearning base models (used / total)  3/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.5516765112158186
+RMSE: 1.5973967920387904
+MAE: 0.9493066834702618
+RMSLE: 0.1987763067768446
+Mean Residual Deviance: 2.5516765112158186
+R^2: 0.9501612510750622
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10043
+Null deviance: 514599.6647051907
+Residual deviance: 25646.900614230195
+AIC: 37956.782660204655
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.904892507398033
+RMSE: 3.302255669598893
+MAE: 1.3076546529975281
+RMSLE: 0.22997813879319365
+Mean Residual Deviance: 10.904892507398033
+R^2: 0.8173569449172559
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 200693.6417061534
+AIC: 96213.33875689624
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.28739   0.0739436  1.24317       1.30376       1.40153       1.28232       1.20619
+mean_residual_deviance  10.5368   3.92007    10.0165       9.82306       16.7549       10.2357       5.85363
+mse                     10.5368   3.92007    10.0165       9.82306       16.7549       10.2357       5.85363
+null_deviance           219771    41523.2    201384        254625        269914        203944        168987
+r2                      0.826546  0.0415019  0.817106      0.857557      0.768023      0.815602      0.874443
+residual_deviance       38906     14899.8    36830.6       36266.7       62613.1       37606         21213.5
+rmse                    3.20222   0.594302   3.16488       3.13418       4.09328       3.19933       2.41943
+rmsle                   0.229729  0.0108965  0.217252      0.239221      0.241112      0.231201      0.219858"
+set 5,15.55,0.8325882340242766,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_5_20230923_181021
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.739698855744603
+RMSE: 1.655203569276179
+MAE: 0.9218452272254973
+RMSLE: 0.18092547539462916
+Mean Residual Deviance: 2.739698855744603
+R^2: 0.942028650821214
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 27539.45289794475
+AIC: 38669.22844491945
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.949882351305277
+RMSE: 3.309060644851538
+MAE: 1.294996262044418
+RMSLE: 0.22861332136690693
+Mean Residual Deviance: 10.949882351305277
+R^2: 0.8166034223554022
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 201521.63479342233
+AIC: 96287.11114643003
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26205   0.0671305  1.34182       1.20069       1.22691       1.32753       1.21332
+mean_residual_deviance  10.6686   2.41581    13.4425       7.90335       12.3717       11.1614       8.4641
+mse                     10.6686   2.41581    13.4425       7.90335       12.3717       11.1614       8.4641
+null_deviance           219770    33572.5    245874        167011        243231        205747        236987
+r2                      0.82108   0.0295427  0.798964      0.825266      0.809916      0.800724      0.870531
+residual_deviance       39303.8   9085.97    49428.1       29179.2       46233.2       40996         30682.4
+rmse                    3.24905   0.374718   3.6664        2.81129       3.51735       3.34087       2.90931
+rmsle                   0.227298  0.0087412  0.235517      0.224534      0.216346      0.236953      0.223141"
+set 6,16.25,0.8389160354046952,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_6_20230923_182555
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.173325214707536
+RMSE: 1.4742202056367075
+MAE: 0.8524476358635892
+RMSLE: 0.1690599668056131
+Mean Residual Deviance: 2.173325214707536
+R^2: 0.9540129767778333
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 21846.26505824015
+AIC: 36341.289222829684
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.740140190712438
+RMSE: 3.2772153103988204
+MAE: 1.2786570126226389
+RMSLE: 0.2277051987761403
+Mean Residual Deviance: 10.740140190712438
+R^2: 0.8201163363033703
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 197661.5400698717
+AIC: 95929.1672980407
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.2478    0.064849    1.3219        1.18592       1.21055       1.31416       1.20644
+mean_residual_deviance  10.4982   2.58059     13.7771       7.74522       11.7509       11.2144       8.00314
+mse                     10.4982   2.58059     13.7771       7.74522       11.7509       11.2144       8.00314
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.823907  0.0331794   0.79396       0.828762      0.819454      0.799778      0.877582
+residual_deviance       38673.8   9648.23     50658.4       28595.4       43913.2       41190.6       29011.4
+rmse                    3.2201    0.401715    3.71175       2.78302       3.42796       3.3488        2.82898
+rmsle                   0.226606  0.00805429  0.233942      0.224122      0.215717      0.235225      0.224027"
+set 7,15.93,0.8333489143710441,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_7_20230923_184211
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DeepLearning base models (used / total)  2/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.4695656344429624
+RMSE: 1.5714851683814781
+MAE: 0.9130251492210316
+RMSLE: 0.19367219529626328
+Mean Residual Deviance: 2.4695656344429624
+R^2: 0.9517650215191218
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 24821.604191786217
+AIC: 37624.031337437664
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.01998539074719
+RMSE: 3.319636334110589
+MAE: 1.3129492455523493
+RMSLE: 0.23023845042942276
+Mean Residual Deviance: 11.01998539074719
+R^2: 0.8154292857661996
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 202811.81113131126
+AIC: 96406.56116768444
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.2882    0.0609327   1.28144       1.29862       1.37488       1.28241       1.20364
+mean_residual_deviance  10.7983   4.08431     10.7706       9.76858       17.0459       10.7687       5.63766
+mse                     10.7983   4.08431     10.7706       9.76858       17.0459       10.7687       5.63766
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.822151  0.0462264   0.803336      0.858347      0.763995      0.806001      0.879075
+residual_deviance       39872.9   15495.2     39603.7       36065.6       63700.4       39564.1       20430.9
+rmse                    3.23839   0.623621    3.28187       3.12547       4.12866       3.28156       2.37438
+rmsle                   0.229386  0.00965773  0.219753      0.237757      0.239398      0.230999      0.219024"
+set 8,15.94,0.8256947594793735,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_8_20230923_185808
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.7227142454710287
+RMSE: 1.6500649215927925
+MAE: 1.060290688515795
+RMSLE: 0.21137242185857513
+Mean Residual Deviance: 2.7227142454710287
+R^2: 0.9423880409676056
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 27368.72359547478
+AIC: 38606.71766460307
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.855593133582873
+RMSE: 3.294782714168398
+MAE: 1.2668870663909755
+RMSLE: 0.22750790541660287
+Mean Residual Deviance: 10.855593133582873
+R^2: 0.8181826466141007
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 199786.3360304592
+AIC: 96127.94840955043
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25444   0.0506734   1.32237       1.20837       1.22273       1.29458       1.22413
+mean_residual_deviance  10.6369   2.70043     14.6127       7.72017       11.5908       10.61         8.65085
+mse                     10.6369   2.70043     14.6127       7.72017       11.5908       10.61         8.65085
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.822188  0.0312786   0.781463      0.829316      0.821915      0.81057       0.867675
+residual_deviance       39175.6   10050.3     53730.8       28502.9       43314.7       38970.4       31359.3
+rmse                    3.24084   0.408985    3.82265       2.77852       3.40452       3.2573        2.94123
+rmsle                   0.227371  0.00819318  0.235933      0.225075      0.2161        0.234892      0.224853"
+set 9,16.33,0.8356316476397811,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_9_20230923_191405
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.2365489822767244
+RMSE: 1.4955096062134554
+MAE: 0.8466462596923828
+RMSLE: 0.1705820925900446
+Mean Residual Deviance: 2.2365489822767244
+R^2: 0.9526751775162587
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 22481.790369845632
+AIC: 36629.53729148017
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.079368833738673
+RMSE: 3.3285685863053316
+MAE: 1.2773017551504715
+RMSLE: 0.22791438211950527
+Mean Residual Deviance: 11.079368833738673
+R^2: 0.8144346887592196
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 203904.70401612655
+AIC: 96503.46862933804
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26301   0.0661074   1.3366        1.21332       1.20796       1.33373       1.22346
+mean_residual_deviance  10.844    2.95904     14.4924       7.80827       12.9892       10.8954       8.03468
+mse                     10.844    2.95904     14.4924       7.80827       12.9892       10.8954       8.03468
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.818727  0.0362295   0.783262      0.827368      0.800428      0.805475      0.8771
+residual_deviance       39960.4   11097.1     53288.6       28828.1       48540.8       40018.7       29125.7
+rmse                    3.26813   0.451846    3.80689       2.79433       3.60406       3.30081       2.83455
+rmsle                   0.22777   0.00958136  0.236442      0.225809      0.214075      0.237435      0.225088"
+set 10,16.07,0.8236838970804721,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_10_20230923_193026
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           0/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.3882952763980936
+RMSE: 1.5454110380083654
+MAE: 0.8974571105700235
+RMSLE: 0.18154602739438963
+Mean Residual Deviance: 2.3882952763980936
+R^2: 0.9494642635193968
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227488
+Residual deviance: 24007.144118353637
+AIC: 37287.40880281382
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.48921379227629
+RMSE: 3.238705573570449
+MAE: 1.2751559324816368
+RMSLE: 0.22734735049336424
+Mean Residual Deviance: 10.48921379227629
+R^2: 0.824319033760516
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 193043.49063305283
+AIC: 95494.08439189302
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.24533   0.0707827  1.30986       1.18146       1.24214       1.32335       1.16983
+mean_residual_deviance  10.2527   2.85523    13.7352       7.51077       11.9811       10.8793       7.15702
+mse                     10.2527   2.85523    13.7352       7.51077       11.9811       10.8793       7.15702
+null_deviance           219770    33572.5    245874        167011        243231        205747        236987
+r2                      0.828147  0.0377545  0.794586      0.833946      0.815918      0.805761      0.890525
+residual_deviance       37782.3   10684.8    50504.4       27729.7       44773.4       39959.7       25944.2
+rmse                    3.17634   0.45215    3.70611       2.74058       3.46137       3.29838       2.67526
+rmsle                   0.226297  0.0083935  0.234102      0.222562      0.217466      0.236346      0.221009"
+set 11,16.25,0.8348741057027004,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_11_20230923_194631
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/15
+# GBM base models (used / total)           0/8
+# DeepLearning base models (used / total)  2/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.5465983996773613
+RMSE: 1.5958065044601621
+MAE: 0.9133562827721379
+RMSLE: 0.19407333824288756
+Mean Residual Deviance: 2.5465983996773613
+R^2: 0.9502604355621497
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10046
+Null deviance: 514599.6647051907
+Residual deviance: 25595.86051515716
+AIC: 37930.760155791235
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.72497942769292
+RMSE: 3.2749014378593015
+MAE: 1.2999750520661086
+RMSLE: 0.22934291971071874
+Mean Residual Deviance: 10.72497942769292
+R^2: 0.8203702597669341
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 197382.52138726052
+AIC: 95907.16989071494
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.28209   0.0509962   1.28164       1.27119       1.3495        1.29972       1.20841
+mean_residual_deviance  10.4196   3.77213     10.1977       8.85746       16.0303       11.3011       5.71118
+mse                     10.4196   3.77213     10.1977       8.85746       16.0303       11.3011       5.71118
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.827464  0.0448337   0.813797      0.871559      0.778055      0.796409      0.877498
+residual_deviance       38464.3   14307.9     37497         32701.7       59905.3       41520.3       20697.3
+rmse                    3.18497   0.586869    3.19339       2.97615       4.00379       3.36171       2.38981
+rmsle                   0.229221  0.00945828  0.219031      0.237833      0.237636      0.232345      0.219259"
+set 12,17.22,0.8148730566109894,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_12_20230923_200247
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DeepLearning base models (used / total)  2/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.9187697114167213
+RMSE: 1.7084407251692173
+MAE: 1.0023473243668701
+RMSLE: 0.19966995439403423
+Mean Residual Deviance: 2.9187697114167213
+R^2: 0.9429912725309766
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 29336.554369449466
+AIC: 39303.75362434999
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.204914417619372
+RMSE: 3.194513173805889
+MAE: 1.301145118190611
+RMSLE: 0.2295259129762139
+Mean Residual Deviance: 10.204914417619372
+R^2: 0.8290806860473428
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 187811.24494186693
+AIC: 94990.37815014645
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.2755    0.0604856   1.26195       1.28015       1.36714       1.27025       1.19801
+mean_residual_deviance  9.86085   3.13039     9.96188       8.72617       14.2811       10.6802       5.65492
+mse                     9.86085   3.13039     9.96188       8.72617       14.2811       10.6802       5.65492
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.836028  0.0370533   0.818103      0.873463      0.802274      0.807594      0.878705
+residual_deviance       36389.6   11901.2     36629.8       32217         53368.4       39239.1       20493.4
+rmse                    3.10707   0.508632    3.15625       2.95401       3.77903       3.26806       2.37801
+rmsle                   0.228493  0.00940177  0.218628      0.237319      0.237598      0.230069      0.218851"
+set 13,15.14,0.8434982434160591,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_13_20230923_202001
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.307227614017512
+RMSE: 1.518956093512091
+MAE: 0.8566019943382843
+RMSLE: 0.1800301325659584
+Mean Residual Deviance: 2.307227614017512
+R^2: 0.9511796351753431
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 23192.25197610403
+AIC: 36942.28106329761
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.527802289727827
+RMSE: 3.2446574996026665
+MAE: 1.2767808537657535
+RMSLE: 0.227962280287375
+Mean Residual Deviance: 10.527802289727827
+R^2: 0.8236727255955505
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 193753.67334015094
+AIC: 95561.66615539024
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26053   0.0511922   1.32112       1.2077        1.23095       1.30956       1.23329
+mean_residual_deviance  10.2958   1.85812     12.3957       8.09044       11.813        10.3768       8.80295
+mse                     10.2958   1.85812     12.3957       8.09044       11.813        10.3768       8.80295
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.826866  0.0216852   0.814618      0.82113       0.8185        0.814733      0.865348
+residual_deviance       37923.8   7042.19     45579.2       29869.9       44145.2       38114         31910.7
+rmse                    3.19808   0.291662    3.52076       2.84437       3.43701       3.22131       2.96698
+rmsle                   0.227489  0.00759446  0.234449      0.225371      0.217024      0.235422      0.225179"
+set 14,16.02,0.831736704144309,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_14_20230923_203511
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       6/15
+# GBM base models (used / total)           2/8
+# DeepLearning base models (used / total)  2/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.577808664328613
+RMSE: 1.6055555625167923
+MAE: 0.998728311875104
+RMSLE: 0.20481473527334473
+Mean Residual Deviance: 2.577808664328613
+R^2: 0.9496508439712887
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10044
+Null deviance: 514599.6647051907
+Residual deviance: 25909.55488516689
+AIC: 38057.193149478044
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.627515858760521
+RMSE: 3.259987094876377
+MAE: 1.2976458727640416
+RMSLE: 0.22936603577444153
+Mean Residual Deviance: 10.627515858760521
+R^2: 0.8220026503638157
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 195588.80186462862
+AIC: 95737.15842826715
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27996   0.0534443   1.26768       1.26503       1.36368       1.28668       1.21674
+mean_residual_deviance  10.3125   3.65355     10.05         8.5848        15.9017       11.0256       6.00065
+mse                     10.3125   3.65355     10.05         8.5848        15.9017       11.0256       6.00065
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.828901  0.0426865   0.816495      0.875513      0.779836      0.801373      0.871289
+residual_deviance       38065.6   13877.3     36953.7       31695.1       59424.7       40508         21746.3
+rmse                    3.17159   0.562986    3.17017       2.92998       3.9877        3.32048       2.44962
+rmsle                   0.229177  0.00941661  0.218254      0.236181      0.23938       0.231625      0.220446"
+set 15,14.62,0.8316463656224963,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_15_20230923_205113
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       7/15
+# GBM base models (used / total)           2/8
+# DeepLearning base models (used / total)  3/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.716167263594912
+RMSE: 1.6480798717279792
+MAE: 0.9845063417444037
+RMSLE: 0.20370923079553582
+Mean Residual Deviance: 2.716167263594912
+R^2: 0.9469484561646331
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10043
+Null deviance: 514599.6647051907
+Residual deviance: 27300.197166392463
+AIC: 38584.68062923348
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.266892242755016
+RMSE: 3.3566191685615774
+MAE: 1.2995700023388332
+RMSLE: 0.23026972927980482
+Mean Residual Deviance: 11.266892242755016
+R^2: 0.8112939105902427
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18397
+Null deviance: 1098853.2046933188
+Residual deviance: 207355.88483566334
+AIC: 96816.35805140625
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.2868    0.0503504   1.28628       1.30416       1.34009       1.29938       1.20409
+mean_residual_deviance  10.9112   4.06541     10.5643       10.0423       17.1114       11.0995       5.73852
+mse                     10.9112   4.06541     10.5643       10.0423       17.1114       11.0995       5.73852
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.820304  0.0453434   0.807104      0.854378      0.763087      0.800041      0.876912
+residual_deviance       40288.5   15429.2     38844.8       37076.2       63945.4       40779.5       20796.4
+rmse                    3.25659   0.618303    3.25027       3.16896       4.1366        3.33159       2.39552
+rmsle                   0.230098  0.00959026  0.220709      0.240471      0.236734      0.233325      0.21925"
+set 16,15.88,0.8255272415530543,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_16_20230923_210551
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/15
+# GBM base models (used / total)           1/8
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.4200846199191934
+RMSE: 1.555662116244782
+MAE: 0.869633540946381
+RMSLE: 0.18459860712568316
+Mean Residual Deviance: 2.4200846199191934
+R^2: 0.9527314731240026
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10046
+Null deviance: 514599.66470519075
+Residual deviance: 24324.270514807813
+AIC: 37418.60138697034
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.664426612564268
+RMSE: 3.2656433688577002
+MAE: 1.2811984795397995
+RMSLE: 0.22859698369064266
+Mean Residual Deviance: 10.664426612564268
+R^2: 0.8213844422672618
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098853.2046933188
+Residual deviance: 196268.10737763278
+AIC: 95798.96718544431
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26337   0.0530147   1.26548       1.27495       1.32837       1.26751       1.18054
+mean_residual_deviance  10.4219   3.55272     11.1578       9.51349       15.3503       10.644        5.44377
+mse                     10.4219   3.55272     11.1578       9.51349       15.3503       10.644        5.44377
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.827453  0.0425685   0.796267      0.862046      0.78747       0.808247      0.883234
+residual_deviance       38469.9   13475.8     41027.3       35123.8       57364.2       39106         19728.2
+rmse                    3.18768   0.570749    3.34033       3.0844        3.91795       3.26251       2.33319
+rmsle                   0.228283  0.00871579  0.218981      0.237397      0.235402      0.230276      0.21936"
+set 17,15.98,0.8179751270257926,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_17_20230923_212145
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.4685060582432428
+RMSE: 1.571148006472733
+MAE: 0.900013644013169
+RMSLE: 0.17465015192579128
+Mean Residual Deviance: 2.4685060582432428
+R^2: 0.9477670232433357
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227488
+Residual deviance: 24813.422897461074
+AIC: 37619.45948380176
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.52252463697914
+RMSE: 3.2438441141613357
+MAE: 1.2801419037291097
+RMSLE: 0.22795627486626993
+Mean Residual Deviance: 10.52252463697914
+R^2: 0.8237611195545951
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18401
+Null deviance: 1098849.7334929644
+Residual deviance: 193656.5434189641
+AIC: 95550.4378024473
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25139   0.0684764   1.31745       1.19961       1.23524       1.32799       1.17668
+mean_residual_deviance  10.3417   2.72535     13.7738       7.96555       12.0957       10.5587       7.31499
+mse                     10.3417   2.72535     13.7738       7.96555       12.0957       10.5587       7.31499
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.82633   0.0361791   0.794008      0.823891      0.814157      0.811486      0.888108
+residual_deviance       38111.1   10222.7     50646.4       29408.8       45201.6       38782         26516.9
+rmse                    3.19311   0.426877    3.71131       2.82233       3.47789       3.24941       2.70462
+rmsle                   0.227161  0.00844061  0.234865      0.225173      0.216876      0.236707      0.222184"
+set 18,18.32,0.8096739241221569,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_18_20230923_213745
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       6/15
+# GBM base models (used / total)           2/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.6670153559586884
+RMSE: 1.6330999222211384
+MAE: 0.9490217752431013
+RMSLE: 0.19338193067008147
+Mean Residual Deviance: 2.6670153559586884
+R^2: 0.9479084797307459
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10044
+Null deviance: 514599.6647051907
+Residual deviance: 26806.171342740778
+AIC: 38399.13138411157
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.374938850893233
+RMSE: 3.372675325449106
+MAE: 1.3082085582898872
+RMSLE: 0.22979769559394617
+Mean Residual Deviance: 11.374938850893233
+R^2: 0.809484267570992
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.204693319
+Residual deviance: 209344.37461183907
+AIC: 96990.00681956914
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.28746   0.053194   1.26219       1.30412       1.36265       1.28976       1.21859
+mean_residual_deviance  11.0895   3.76856    10.6975       11.0145       16.6558       11.0562       6.02354
+mse                     11.0895   3.76856    10.6975       11.0145       16.6558       11.0562       6.02354
+null_deviance           219771    41523.2    201384        254625        269914        203944        168987
+r2                      0.817194  0.0391025  0.804672      0.840281      0.769395      0.800822      0.870798
+residual_deviance       40938.5   14333.4    39334.6       40665.4       62242.8       40620.3       21829.3
+rmse                    3.29001   0.575927   3.2707        3.3188        4.08115       3.32508       2.45429
+rmsle                   0.229314  0.0104163  0.217187      0.239218      0.238817      0.231674      0.219672"
+set 19,16.08,0.8266861772971839,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_19_20230923_215605
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           1/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.4202873228803066
+RMSE: 1.55572726494084
+MAE: 0.8601089631924663
+RMSLE: 0.17995907802898145
+Mean Residual Deviance: 2.4202873228803066
+R^2: 0.9487873197400922
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227487
+Residual deviance: 24328.72816959284
+AIC: 37421.16497298775
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.779248559144397
+RMSE: 3.2831765957901804
+MAE: 1.3094754937767543
+RMSLE: 0.2298408981575533
+Mean Residual Deviance: 10.779248559144397
+R^2: 0.819461320961874
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 198381.2904824935
+AIC: 95996.06057399588
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27132   0.074742    1.36802       1.19283       1.27827       1.31562       1.20187
+mean_residual_deviance  10.5921   2.7983      14.1921       7.6025        12.5942       10.2869       8.285
+mse                     10.5921   2.7983      14.1921       7.6025        12.5942       10.2869       8.285
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.823155  0.0322708   0.787753      0.831917      0.806498      0.816337      0.873271
+residual_deviance       39026.9   10491       52184.4       28068.4       47064.4       37783.9       30033.1
+rmse                    3.23181   0.429507    3.76724       2.75726       3.54883       3.20733       2.87837
+rmsle                   0.227776  0.00781972  0.236744      0.222953      0.219838      0.235618      0.223727"
+set 20,15.22,0.827973532560824,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_20_20230923_221210
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.1173178723510024
+RMSE: 1.4551006399390396
+MAE: 0.8164606035246551
+RMSLE: 0.17449157546419294
+Mean Residual Deviance: 2.1173178723510024
+R^2: 0.9551980782693781
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 21283.279252872275
+AIC: 36078.84940995886
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.006051081617398
+RMSE: 3.3175368998124797
+MAE: 1.277775669004942
+RMSLE: 0.22737043448536481
+Mean Residual Deviance: 11.006051081617398
+R^2: 0.8156626676897909
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 202555.3641060866
+AIC: 96381.27535684344
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.2629    0.0603636   1.32657       1.21836       1.228         1.33076       1.2108
+mean_residual_deviance  10.7295   2.09667     13.6867       8.40101       11.3998       11.1105       9.04931
+mse                     10.7295   2.09667     13.6867       8.40101       11.3998       11.1105       9.04931
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.819528  0.0261296   0.795312      0.814263      0.82485       0.801633      0.86158
+residual_deviance       39511.2   7831.62     50325.9       31016.5       42600.9       40808.9       32803.8
+rmse                    3.26316   0.318659    3.69955       2.89845       3.37635       3.33324       3.00821
+rmsle                   0.227164  0.00773382  0.233659      0.226295      0.216484      0.235585      0.223797"
+set 21,14.64,0.8273865571625372,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_21_20230923_222724
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DeepLearning base models (used / total)  3/4
+# DRF base models (used / total)           1/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.693110174241586
+RMSE: 1.6410698261322052
+MAE: 0.9296485903265206
+RMSLE: 0.19504881137652444
+Mean Residual Deviance: 2.693110174241586
+R^2: 0.9473988018421394
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 27068.45036130218
+AIC: 38494.99517075852
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.911200043495525
+RMSE: 3.3032105660244433
+MAE: 1.2998881352367564
+RMSLE: 0.23017782855851557
+Mean Residual Deviance: 10.911200043495525
+R^2: 0.8172513017243396
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18397
+Null deviance: 1098853.2046933188
+Residual deviance: 200809.72560049163
+AIC: 96225.98079990206
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.28818   0.0611409   1.28682       1.26556       1.38228       1.29266       1.21358
+mean_residual_deviance  10.5969   3.84504     10.5718       9.65658       16.4007       10.7138       5.64158
+mse                     10.5969   3.84504     10.5718       9.65658       16.4007       10.7138       5.64158
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.825169  0.0432985   0.806966      0.859971      0.772928      0.806989      0.878991
+residual_deviance       39124.3   14597.7     38872.7       35652.1       61289.3       39362.7       20445.1
+rmse                    3.21142   0.595465    3.25144       3.1075        4.04977       3.2732        2.3752
+rmsle                   0.230015  0.00970654  0.219532      0.237394      0.240049      0.233175      0.219922"
+set 22,14.93,0.832172318696091,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_22_20230923_224204
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.461159058605448
+RMSE: 1.568808165011085
+MAE: 0.8916529366421886
+RMSLE: 0.1829447808668777
+Mean Residual Deviance: 2.461159058605448
+R^2: 0.9479224839358589
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 24739.570857101964
+AIC: 37591.497166569905
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.92653373551415
+RMSE: 3.3055307796954714
+MAE: 1.2595623269088174
+RMSLE: 0.22725361403967562
+Mean Residual Deviance: 10.92653373551415
+R^2: 0.8169944819203774
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 201091.92686840243
+AIC: 96247.82609292971
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.24661   0.0677281   1.3139        1.19094       1.21426       1.32575       1.18821
+mean_residual_deviance  10.6575   2.57287     14.0511       7.84158       11.7022       11.3671       8.32556
+mse                     10.6575   2.57287     14.0511       7.84158       11.7022       11.3671       8.32556
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.82128   0.0325682   0.789862      0.826632      0.820204      0.797053      0.87265
+residual_deviance       39255.9   9602.31     51665.9       28951.1       43731         41751.2       30180.2
+rmse                    3.2453    0.396074    3.74848       2.80028       3.42084       3.37151       2.8854
+rmsle                   0.226689  0.00852567  0.233144      0.223316      0.216321      0.237532      0.223133"
+set 23,15.70,0.8316560682467944,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_23_20230923_225701
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.3633361116201823
+RMSE: 1.537314577963854
+MAE: 0.8702058094421654
+RMSLE: 0.1844331869205947
+Mean Residual Deviance: 2.3633361116201823
+R^2: 0.9499923932638458
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 23756.254594006074
+AIC: 37183.80640592442
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.293812362234679
+RMSE: 3.360626781157747
+MAE: 1.275867415083385
+RMSLE: 0.22787177228068706
+Mean Residual Deviance: 11.293812362234679
+R^2: 0.8108430328890988
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 207851.32271456704
+AIC: 96856.27849828174
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.24917   0.055263    1.32048       1.2141        1.23328       1.29118       1.18685
+mean_residual_deviance  10.9763   2.55968     14.1942       8.55466       13.1051       10.2818       8.74601
+mse                     10.9763   2.55968     14.1942       8.55466       13.1051       10.2818       8.74601
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.815977  0.0302046   0.787722      0.810866      0.798648      0.81643       0.866219
+residual_deviance       40443.8   9654.53     52192.2       31583.8       48973.8       37764.9       31704.3
+rmse                    3.29527   0.383345    3.76752       2.92483       3.6201        3.20652       2.95736
+rmsle                   0.226864  0.00724975  0.232803      0.22621       0.216592      0.234677      0.22404"
+set 24,15.59,0.8253904064919133,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_24_20230923_231244
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.4915084069002718
+RMSE: 1.5784512684591412
+MAE: 0.9109321104640907
+RMSLE: 0.18623676421401522
+Mean Residual Deviance: 2.4915084069002718
+R^2: 0.9472802992433118
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 25044.64250616153
+AIC: 37714.69359348227
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.102596122128862
+RMSE: 3.332055840187685
+MAE: 1.275438801572563
+RMSLE: 0.22830188310660637
+Mean Residual Deviance: 11.102596122128862
+R^2: 0.8140456612736213
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 204332.17903165956
+AIC: 96542.01121766343
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26925   0.0523388   1.32671       1.22582       1.22958       1.32605       1.23811
+mean_residual_deviance  10.848    2.15749     14.1356       8.30917       11.33         10.6661       9.79923
+mse                     10.848    2.15749     14.1356       8.30917       11.33         10.6661       9.79923
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.818098  0.0225396   0.788599      0.816294      0.825921      0.809568      0.850109
+residual_deviance       39938.6   8008.32     51976.5       30677.5       42340.3       39176.6       35522.2
+rmse                    3.28091   0.323295    3.75973       2.88256       3.36601       3.2659        3.13037
+rmsle                   0.228379  0.00788918  0.234543      0.22766       0.216604      0.23663       0.226456"
+set 25,15.90,0.82558980693092,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_25_20230923_232820
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/15
+# GBM base models (used / total)           0/8
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.1752223174322554
+RMSE: 1.4748634911178238
+MAE: 0.8463335436708767
+RMSLE: 0.17805197958318303
+Mean Residual Deviance: 2.1752223174322554
+R^2: 0.9575140663568
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10047
+Null deviance: 514599.6647051907
+Residual deviance: 21863.1595125116
+AIC: 36344.4448113504
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.86112926436893
+RMSE: 3.295622743028839
+MAE: 1.2749245746705697
+RMSLE: 0.22695933977113109
+Mean Residual Deviance: 10.86112926436893
+R^2: 0.8180899234772684
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098853.2046933188
+Residual deviance: 199888.22298144578
+AIC: 96135.33168123633
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25795   0.0429055   1.25849       1.26452       1.31759       1.25229       1.19686
+mean_residual_deviance  10.7417   3.50367     11.2544       10.5328       15.5366       10.7227       5.66181
+mse                     10.7417   3.50367     11.2544       10.5328       15.5366       10.7227       5.66181
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.822409  0.0393685   0.794504      0.847266      0.784891      0.806828      0.878557
+residual_deviance       39648.6   13309.8     41382.3       38887         58060.1       39395.3       20518.4
+rmse                    3.23917   0.558397    3.35475       3.24542       3.94164       3.27456       2.37946
+rmsle                   0.226555  0.00883701  0.216349      0.234639      0.234156      0.229735      0.217896"
+set 26,16.03,0.8213557710432784,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_26_20230923_234415
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       7/15
+# GBM base models (used / total)           2/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  3/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.4731836422436775
+RMSE: 1.5726358899133892
+MAE: 0.925009638728918
+RMSLE: 0.19576911510376668
+Mean Residual Deviance: 2.4731836422436775
+R^2: 0.9516943554368047
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10043
+Null deviance: 514599.6647051907
+Residual deviance: 24857.968788191203
+AIC: 37642.745659716245
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.471943967162906
+RMSE: 3.3870258291254447
+MAE: 1.2822869834737656
+RMSLE: 0.2281249374663367
+Mean Residual Deviance: 11.471943967162906
+R^2: 0.8078595554720758
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 211129.6567716661
+AIC: 97146.29009919334
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27087   0.0444018   1.2508        1.24985       1.33006       1.30291       1.22075
+mean_residual_deviance  11.0831   3.64225     11.3718       10.3958       16.229        11.4259       5.99287
+mse                     11.0831   3.64225     11.3718       10.3958       16.229        11.4259       5.99287
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.816507  0.0414481   0.792359      0.849252      0.775304      0.794161      0.871456
+residual_deviance       40908     13840.7     41814.1       38381.1       60647.8       41978.7       21718.2
+rmse                    3.29065   0.564257    3.37221       3.22424       4.02852       3.38022       2.44803
+rmsle                   0.22823   0.00899395  0.217387      0.234577      0.235926      0.23375       0.219511"
+set 27,16.62,0.8432094856484168,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_27_20230924_00018
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.1692931777934836
+RMSE: 1.4728520556367783
+MAE: 0.8665715497784471
+RMSLE: 0.1758062856918716
+Mean Residual Deviance: 2.1692931777934836
+R^2: 0.9540982936802206
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 21805.735023180096
+AIC: 36322.62304356019
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.246118318737699
+RMSE: 3.3535232694492665
+MAE: 1.277132560105051
+RMSLE: 0.22716687945851136
+Mean Residual Deviance: 11.246118318737699
+R^2: 0.8116418473485377
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 206973.5615380486
+AIC: 96778.39338860977
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25765   0.0730451   1.34458       1.19726       1.22864       1.32706       1.19073
+mean_residual_deviance  11.0573   2.35132     14.0464       8.09136       12.3584       11.3476       9.44298
+mse                     11.0573   2.35132     14.0464       8.09136       12.3584       11.3476       9.44298
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.814824  0.0257103   0.789932      0.821109      0.810121      0.797401      0.855558
+residual_deviance       40723.2   8802.93     51648.7       29873.3       46183.4       41679.7       34230.8
+rmse                    3.30988   0.357149    3.74786       2.84453       3.51545       3.36862       3.07294
+rmsle                   0.226295  0.00872787  0.23494       0.223185      0.215604      0.235681      0.222065"
+set 28,14.58,0.8343785758482012,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_28_20230924_01657
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.3502113161682976
+RMSE: 1.533039893860658
+MAE: 0.8658271884788258
+RMSLE: 0.17584528435927274
+Mean Residual Deviance: 2.3502113161682976
+R^2: 0.9502701106846659
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 23624.324150123728
+AIC: 37127.827003203776
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.041004910440966
+RMSE: 3.322800762977065
+MAE: 1.2833836451524931
+RMSLE: 0.2271674757006504
+Mean Residual Deviance: 11.041004910440966
+R^2: 0.8150772355932485
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 203198.65437175555
+AIC: 96439.63152057643
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25745   0.0623948   1.33294       1.18273       1.25793       1.30315       1.21052
+mean_residual_deviance  10.8606   2.77402     14.5766       7.46551       12.5768       10.303        9.38091
+mse                     10.8606   2.77402     14.5766       7.46551       12.5768       10.303        9.38091
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.819254  0.0282308   0.782004      0.834946      0.806765      0.81605       0.856508
+residual_deviance       40001.8   10358.2     53598         27562.7       46999.4       37843.1       34005.8
+rmse                    3.27385   0.421955    3.81793       2.73231       3.54638       3.20984       3.06283
+rmsle                   0.225863  0.00715875  0.233924      0.221579      0.217884      0.232922      0.223005"
+set 29,14.72,0.8239214744263492,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_29_20230924_03133
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DeepLearning base models (used / total)  1/1
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.4205938228656914
+RMSE: 1.5558257688011505
+MAE: 0.8250870943608354
+RMSLE: 0.1727535968667917
+Mean Residual Deviance: 2.4205938228656914
+R^2: 0.94878083427632
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 24331.80910744593
+AIC: 37424.43785607017
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.233120941861706
+RMSE: 3.351584840319831
+MAE: 1.2752131784920644
+RMSLE: 0.22679794337756598
+Mean Residual Deviance: 11.233120941861706
+R^2: 0.8118595368506656
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 206734.35781402283
+AIC: 96757.11119592446
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25301   0.060221    1.32716       1.20083       1.21411       1.30957       1.21336
+mean_residual_deviance  10.9418   2.53066     14.7534       8.52058       12.2212       9.72175       9.49229
+mse                     10.9418   2.53066     14.7534       8.52058       12.2212       9.72175       9.49229
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.816888  0.0273245   0.779359      0.81162       0.812228      0.826428      0.854804
+residual_deviance       40298.9   9452.01     54248.2       31458         45670.8       35708         34409.5
+rmse                    3.29097   0.373139    3.84101       2.919         3.49589       3.11797       3.08096
+rmsle                   0.226074  0.00756276  0.233417      0.224652      0.214992      0.23294       0.22437"
+set 30,14.47,0.837238001224846,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_30_20230924_04617
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.0246381476399065
+RMSE: 1.4228977994360335
+MAE: 0.7730421588515674
+RMSLE: 0.16639840308436288
+Mean Residual Deviance: 2.0246381476399065
+R^2: 0.9571591582879921
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 20351.66266007634
+AIC: 35628.93052381014
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.487543016964116
+RMSE: 3.3893278119656878
+MAE: 1.2516542289602413
+RMSLE: 0.22532796816923747
+Mean Residual Deviance: 11.487543016964116
+R^2: 0.8075982912633596
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211416.74168420758
+AIC: 97169.29805837931
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.24159   0.0744291   1.31811       1.19355       1.21044       1.32361       1.16224
+mean_residual_deviance  11.2882   2.85488     15.1094       8.09088       13.1325       10.8693       9.23887
+mse                     11.2882   2.85488     15.1094       8.09088       13.1325       10.8693       9.23887
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.8116    0.0313417   0.774035      0.82112       0.798226      0.805941      0.85868
+residual_deviance       41583.8   10686.8     55557.3       29871.5       49076.3       39922.8       33490.9
+rmse                    3.33836   0.42355     3.88708       2.84445       3.62389       3.29686       3.03955
+rmsle                   0.225359  0.00895666  0.233958      0.222307      0.215476      0.235607      0.219449"
+set 31,15.34,0.8274518375664897,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_31_20230924_10046
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DeepLearning base models (used / total)  2/4
+# DRF base models (used / total)           2/2
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.436516568345916
+RMSE: 1.5609345176354823
+MAE: 0.9078951979556523
+RMSLE: 0.19501740816134241
+Mean Residual Deviance: 2.436516568345916
+R^2: 0.9524105281498308
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 24489.4280284448
+AIC: 37488.61526641249
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.037371961783101
+RMSE: 3.322254048350773
+MAE: 1.2739490860167613
+RMSLE: 0.22779855680356653
+Mean Residual Deviance: 11.037371961783101
+R^2: 0.8151380828543636
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 203131.7935846562
+AIC: 96433.57484457258
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26835   0.0753078  1.22642       1.24878       1.39547       1.26894       1.20214
+mean_residual_deviance  10.876    4.24665    10.2676       10.2393       17.5024       10.7323       5.63856
+mse                     10.876    4.24665    10.2676       10.2393       17.5024       10.7323       5.63856
+null_deviance           219771    41523.2    201384        254625        269914        203944        168987
+r2                      0.821485  0.0463376  0.812521      0.851521      0.757674      0.806656      0.879056
+residual_deviance       40165.7   16111.9    37753.9       37803.6       65406.5       39430.5       20434.2
+rmse                    3.24768   0.64094    3.20431       3.1999        4.18359       3.27602       2.37457
+rmsle                   0.227886  0.0103759  0.21643       0.234391      0.240616      0.229686      0.218306"
+set 32,15.57,0.8264699224283028,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_32_20230924_11608
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.195658185563886
+RMSE: 1.481775349222643
+MAE: 0.8580728609748266
+RMSLE: 0.18626676373821457
+Mean Residual Deviance: 2.195658185563886
+R^2: 0.9571149177592412
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 22068.560423102615
+AIC: 36442.43155253514
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.855535180483754
+RMSE: 3.2947739194797196
+MAE: 1.2734560899385983
+RMSLE: 0.2274990011346401
+Mean Residual Deviance: 10.855535180483754
+R^2: 0.8181836172546701
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 199785.26946162301
+AIC: 96129.85015866076
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26376   0.0534653  1.23856       1.28456       1.33905       1.26138       1.19526
+mean_residual_deviance  10.6811   3.72964    10.6157       10.4167       16.2263       10.4415       5.70516
+mse                     10.6811   3.72964    10.6157       10.4167       16.2263       10.4415       5.70516
+null_deviance           219771    41523.2    201384        254625        269914        203944        168987
+r2                      0.823995  0.0397826  0.806165      0.848949      0.775342      0.811894      0.877627
+residual_deviance       39433.5   14175.1    39033.9       38458.4       60637.7       38362.2       20675.5
+rmse                    3.22675   0.580064   3.25817       3.22749       4.02819       3.23134       2.38855
+rmsle                   0.227397  0.0101437  0.216552      0.237504      0.23582       0.230311      0.216797"
+set 33,17.40,0.8408403535266862,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_33_20230924_13143
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           0/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.9847259587421904
+RMSE: 1.4088030234004292
+MAE: 0.8132878133289962
+RMSLE: 0.16745219742662898
+Mean Residual Deviance: 1.9847259587421904
+R^2: 0.9580036903190319
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227488
+Residual deviance: 19950.4653372765
+AIC: 35426.79376126448
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.14193497946517
+RMSE: 3.3379537114024167
+MAE: 1.2854039891634181
+RMSLE: 0.22774277417869646
+Mean Residual Deviance: 11.14193497946517
+R^2: 0.8133867855366536
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 205056.17136207697
+AIC: 96605.10524746102
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26286   0.0717076   1.3546        1.19633       1.19759       1.31938       1.24642
+mean_residual_deviance  11.0241   2.96872     15.3651       7.57586       12.2772       10.5195       9.38301
+mse                     11.0241   2.96872     15.3651       7.57586       12.2772       10.5195       9.38301
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.816549  0.0317882   0.77021       0.832507      0.811368      0.812185      0.856475
+residual_deviance       40599.8   11038.1     56497.7       27970.1       45879.9       38638.2       34013.4
+rmse                    3.29654   0.442956    3.91984       2.75243       3.50388       3.24338       3.06317
+rmsle                   0.227144  0.00890972  0.236029      0.224303      0.214104      0.234886      0.226401"
+set 34,15.19,0.8229084934882231,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_34_20230924_14908
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.211175960402283
+RMSE: 1.4870023404158728
+MAE: 0.8653730711800037
+RMSLE: 0.1739815906761792
+Mean Residual Deviance: 2.211175960402283
+R^2: 0.9532120643743599
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 22226.74075396375
+AIC: 36514.84837254477
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.317370963849571
+RMSE: 3.3641300456209433
+MAE: 1.2849407657629273
+RMSLE: 0.22875649064387882
+Mean Residual Deviance: 11.317370963849571
+R^2: 0.8104484563291279
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 208284.8952186875
+AIC: 96892.62878316132
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25815   0.0655659   1.33631       1.20135       1.19906       1.31978       1.23425
+mean_residual_deviance  11.0345   2.28281     14.2987       8.10032       11.5214       11.3367       9.91542
+mse                     11.0345   2.28281     14.2987       8.10032       11.5214       11.3367       9.91542
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.815196  0.0242082   0.78616       0.820911      0.822981      0.797595      0.848332
+residual_deviance       40624.2   8464.23     52576.2       29906.4       43055.3       41639.7       35943.4
+rmse                    3.30753   0.344116    3.78136       2.84611       3.39431       3.367         3.14888
+rmsle                   0.227874  0.00902507  0.235098      0.225881      0.214169      0.236903      0.227318"
+set 35,16.80,0.839428610041891,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_35_20230924_20420
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.2881268994532435
+RMSE: 1.5126555785945601
+MAE: 0.8434242100103623
+RMSLE: 0.17782040536200452
+Mean Residual Deviance: 2.2881268994532435
+R^2: 0.9515838015643782
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 23000.251593304005
+AIC: 36858.71776564096
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.900956913314614
+RMSE: 3.3016597210061813
+MAE: 1.3157246867683692
+RMSLE: 0.2301323190003896
+Mean Residual Deviance: 10.900956913314614
+R^2: 0.817422861103635
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 200621.21103264217
+AIC: 96204.69552343164
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27551   0.0615484   1.3473        1.20829       1.25009       1.33399       1.23789
+mean_residual_deviance  10.7096   2.95748     14.1951       7.25745       12.9483       10.8634       8.28363
+mse                     10.7096   2.95748     14.1951       7.25745       12.9483       10.8634       8.28363
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.82153   0.0346651   0.787708      0.839546      0.801058      0.806045      0.873292
+residual_deviance       39461.4   11084.5     52195.4       26794.5       48387.7       39901.3       30028.1
+rmse                    3.24681   0.457941    3.76764       2.69396       3.59837       3.29597       2.87813
+rmsle                   0.228403  0.00804764  0.237032      0.224174      0.218171      0.236064      0.226575"
+set 36,15.61,0.8344283676276538,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_36_20230924_22109
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.324786476798494
+RMSE: 1.5247250495740188
+MAE: 0.8649812484911346
+RMSLE: 0.18345974487670805
+Mean Residual Deviance: 2.324786476798494
+R^2: 0.950808093988134
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 23368.753664778462
+AIC: 37018.49090664307
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.48994070405812
+RMSE: 3.389681504811052
+MAE: 1.2997341891157963
+RMSLE: 0.23049174372055337
+Mean Residual Deviance: 11.48994070405812
+R^2: 0.8075581330595365
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211460.86871748563
+AIC: 97173.13895183605
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.28689   0.0658541   1.36744       1.22576       1.2375        1.34789       1.25588
+mean_residual_deviance  11.2651   2.76375     14.8369       7.71699       12.7787       11.4273       9.56537
+mse                     11.2651   2.76375     14.8369       7.71699       12.7787       11.4273       9.56537
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.812164  0.0296422   0.77811       0.829386      0.803663      0.795977      0.853686
+residual_deviance       41489.5   10315       54555.3       28491.1       47754.1       41972.6       34674.5
+rmse                    3.33556   0.417032    3.85187       2.77795       3.57473       3.38043       3.09279
+rmsle                   0.230199  0.00934873  0.238871      0.228054      0.217101      0.239675      0.227293"
+set 37,14.51,0.8362973924117936,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_37_20230924_23647
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       6/15
+# GBM base models (used / total)           2/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.384118692041782
+RMSE: 1.5440591607972092
+MAE: 0.829294045914858
+RMSLE: 0.1746121112685022
+Mean Residual Deviance: 2.384118692041782
+R^2: 0.9534339512169177
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10044
+Null deviance: 514599.6647051907
+Residual deviance: 23962.776973711952
+AIC: 37272.10804970046
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.326224297766553
+RMSE: 3.3654456313787855
+MAE: 1.2780900469817253
+RMSLE: 0.2274108248486802
+Mean Residual Deviance: 11.326224297766553
+R^2: 0.8103001742664511
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 208447.83197609562
+AIC: 96909.02020500296
+
+Cross-Validation Metrics Summary: 
+                        mean     sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  -------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27505  0.0354486   1.24527       1.27128       1.32326       1.29683       1.23862
+mean_residual_deviance  11.0939  3.5268      11.3003       10.2941       16.3353       11.0936       6.44643
+mse                     11.0939  3.5268      11.3003       10.2941       16.3353       11.0936       6.44643
+null_deviance           219771   41523.2     201384        254625        269914        203944        168987
+r2                      0.81602  0.0381613   0.793665      0.850726      0.773833      0.800148      0.861727
+residual_deviance       40944.3  13437       41551.2       38005.9       61045         40757.8       23361.9
+rmse                    3.29628  0.534393    3.36159       3.20845       4.04169       3.3307        2.53898
+rmsle                   0.2281   0.00928104  0.216138      0.235336      0.235597      0.233387      0.220041"
+set 38,14.97,0.8383029494757104,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_38_20230924_25118
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.9694289513180812
+RMSE: 1.4033634423477337
+MAE: 0.7829008516308611
+RMSLE: 0.16829815862011382
+Mean Residual Deviance: 1.9694289513180812
+R^2: 0.9583273712071391
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 19796.69981864935
+AIC: 35351.01922323235
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.63217717618496
+RMSE: 3.4105977740250992
+MAE: 1.2837709419873473
+RMSLE: 0.22848210053114368
+Mean Residual Deviance: 11.63217717618496
+R^2: 0.8051758533813266
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 214078.588750508
+AIC: 97399.56743617225
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26752   0.067898    1.34899       1.20284       1.21152       1.33023       1.24404
+mean_residual_deviance  11.4603   2.66464     14.3153       7.76497       13.7682       11.0359       10.4171
+mse                     11.4603   2.66464     14.3153       7.76497       13.7682       11.0359       10.4171
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.809264  0.0243244   0.785911      0.828325      0.78846       0.802966      0.840657
+residual_deviance       42210.9   10001.3     52637.4       28668.3       51451.7       40534.8       37762.1
+rmse                    3.36605   0.403084    3.78356       2.78657       3.71055       3.32203       3.22756
+rmsle                   0.227932  0.00914536  0.235732      0.223705      0.215582      0.238013      0.226631"
+set 39,14.44,0.8406738298935212,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_39_20230924_30618
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.2647147546322066
+RMSE: 1.504896924919513
+MAE: 0.8322060845160463
+RMSLE: 0.16926909746647617
+Mean Residual Deviance: 2.2647147546322066
+R^2: 0.9520791967497281
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 22764.91271356294
+AIC: 36755.33575851598
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.60780073508881
+RMSE: 3.4070222680647113
+MAE: 1.24447728888394
+RMSLE: 0.2260774994330984
+Mean Residual Deviance: 11.60780073508881
+R^2: 0.8055841277105623
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 213629.96472857447
+AIC: 97360.95946604673
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.23642   0.0643281   1.31072       1.17549       1.19875       1.30152       1.19564
+mean_residual_deviance  11.4428   2.93572     13.7849       7.66404       14.8701       11.1482       9.74687
+mse                     11.4428   2.93572     13.7849       7.66404       14.8701       11.1482       9.74687
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.80956   0.0312968   0.793844      0.830557      0.77153       0.80096       0.85091
+residual_deviance       42166.4   11099.9     50686.9       28295.6       55569.7       40947.5       35332.4
+rmse                    3.35966   0.440948    3.7128        2.7684        3.85618       3.3389        3.122
+rmsle                   0.226097  0.00892978  0.233747      0.223451      0.213445      0.235583      0.22426"
+set 40,14.15,0.8358649137497693,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_40_20230924_32046
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.9326447085427239
+RMSE: 1.3901959245166575
+MAE: 0.7965820536234386
+RMSLE: 0.17052220932150497
+Mean Residual Deviance: 1.9326447085427239
+R^2: 0.9591057166730051
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 19426.94461027146
+AIC: 35161.49632130421
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.503185337582845
+RMSE: 3.391634611449595
+MAE: 1.2788324965789508
+RMSLE: 0.22827334393496249
+Mean Residual Deviance: 11.503185337582845
+R^2: 0.8073363023235832
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211704.6229528747
+AIC: 97194.34131135058
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26258   0.0610469   1.33452       1.203         1.22401       1.32232       1.22903
+mean_residual_deviance  11.2415   2.75784     14.7341       7.74868       13.159        10.7885       9.77755
+mse                     11.2415   2.75784     14.7341       7.74868       13.159        10.7885       9.77755
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.812795  0.0274861   0.779648      0.828686      0.797821      0.807382      0.85044
+residual_deviance       41406     10319.4     54177.1       28608.1       49175         39626.2       35443.6
+rmse                    3.33223   0.414994    3.8385        2.78364       3.62753       3.28459       3.12691
+rmsle                   0.227972  0.00850175  0.235876      0.224854      0.216342      0.236791      0.225997"
+set 41,15.98,0.8417408769549785,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_41_20230924_33456
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.1159694503710087
+RMSE: 1.4546372229428919
+MAE: 0.8489955868997368
+RMSLE: 0.17131287965110076
+Mean Residual Deviance: 2.1159694503710087
+R^2: 0.9552266105444778
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 21269.72491512938
+AIC: 36072.445716012284
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.324325614518584
+RMSE: 3.3651635345876705
+MAE: 1.2724609816460806
+RMSLE: 0.2288351806999732
+Mean Residual Deviance: 11.324325614518584
+R^2: 0.8103319747916564
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 208412.88860960002
+AIC: 96905.93477293065
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25604   0.0668771   1.32989       1.19552       1.20696       1.32742       1.2204
+mean_residual_deviance  11.1202   2.67969     14.4284       7.77653       13.0772       10.8387       9.48032
+mse                     11.1202   2.67969     14.4284       7.77653       13.0772       10.8387       9.48032
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.814568  0.0275788   0.784219      0.82807       0.799076      0.806486      0.854987
+residual_deviance       40962.1   10045.5     53053.3       28711         48869.6       39810.7       34366.2
+rmse                    3.31492   0.405512    3.79848       2.78864       3.61625       3.29222       3.07901
+rmsle                   0.228365  0.00853291  0.235855      0.225896      0.216137      0.237143      0.226795"
+set 42,15.56,0.8426929125209985,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_42_20230924_35056
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.064749332112234
+RMSE: 1.436923565160038
+MAE: 0.7756197726321705
+RMSLE: 0.1651479289827185
+Mean Residual Deviance: 2.064749332112234
+R^2: 0.9563104155598838
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 20754.860286392177
+AIC: 35826.12903309051
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.46554036127063
+RMSE: 3.3860803831673327
+MAE: 1.2566919253242106
+RMSLE: 0.22623915735851044
+Mean Residual Deviance: 11.46554036127063
+R^2: 0.807966807711648
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211011.80480882467
+AIC: 97134.01417143982
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25173   0.0636553   1.32618       1.21186       1.18843       1.31434       1.21786
+mean_residual_deviance  11.2577   2.24192     14.2038       8.27376       12.5661       10.585        10.66
+mse                     11.2577   2.24192     14.2038       8.27376       12.5661       10.585        10.66
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.811909  0.0178249   0.787579      0.817077      0.80693       0.811015      0.836942
+residual_deviance       41451     8364.78     52227.3       30546.7       46959.4       38878.8       38642.6
+rmse                    3.3417    0.336841    3.76879       2.87641       3.54487       3.25346       3.26497
+rmsle                   0.226354  0.00905631  0.234058      0.226493      0.212173      0.234397      0.224648"
+set 43,13.41,0.8231382310373152,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_43_20230924_40630
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.1864647265792514
+RMSE: 1.4786699180612457
+MAE: 0.8559341318947691
+RMSLE: 0.1754519997090448
+Mean Residual Deviance: 2.1864647265792514
+R^2: 0.9537349479612147
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 21978.343431574634
+AIC: 36401.87873516988
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.297489590044645
+RMSE: 3.36117384109252
+MAE: 1.2750171438178133
+RMSLE: 0.2276423409992271
+Mean Residual Deviance: 11.297489590044645
+R^2: 0.8107814440086039
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 207918.99841518165
+AIC: 96862.26980425917
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26274   0.0720814   1.35291       1.20836       1.18214       1.31828       1.25203
+mean_residual_deviance  11.1273   2.10463     13.4816       8.34149       12.87         10.9807       9.96282
+mse                     11.1273   2.10463     13.4816       8.34149       12.87         10.9807       9.96282
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.813555  0.0200856   0.798379      0.815579      0.802261      0.803951      0.847607
+residual_deviance       40982.2   7940.86     49571.9       30796.8       48095.1       40332.1       36115.2
+rmse                    3.3235    0.319564    3.67173       2.88816       3.58748       3.31371       3.15639
+rmsle                   0.227168  0.00936297  0.234943      0.224422      0.212955      0.236146      0.227375"
+set 44,14.17,0.8359169813254738,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_44_20230924_41955
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.0354273863858796
+RMSE: 1.426684052755157
+MAE: 0.7828621569135608
+RMSLE: 0.1680337799169406
+Mean Residual Deviance: 2.0354273863858796
+R^2: 0.9569308606685641
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 20460.11608795086
+AIC: 35682.35512115168
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.341532911598847
+RMSE: 3.367719244770687
+MAE: 1.2612895685353007
+RMSLE: 0.22723324019104146
+Mean Residual Deviance: 11.341532911598847
+R^2: 0.8100437744901566
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 208729.57170506517
+AIC: 96933.87840065069
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25171   0.0619603   1.32495       1.19114       1.20056       1.30947       1.23243
+mean_residual_deviance  11.1889   2.43351     14.0101       7.83405       12.8984       11.2566       9.94515
+mse                     11.1889   2.43351     14.0101       7.83405       12.8984       11.2566       9.94515
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.8132    0.0236334   0.790475      0.826798      0.801825      0.799025      0.847877
+residual_deviance       41207.3   9119.57     51515.1       28923.3       48201.2       41345.6       36051.2
+rmse                    3.32841   0.371713    3.74301       2.79894       3.59143       3.35509       3.15359
+rmsle                   0.226977  0.00855359  0.234378      0.223248      0.215292      0.236243      0.225724"
+set 45,15.16,0.8399101162378834,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_45_20230924_43407
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.056186850258999
+RMSE: 1.433941020495264
+MAE: 0.8028580053269784
+RMSLE: 0.17119129771961342
+Mean Residual Deviance: 2.056186850258999
+R^2: 0.9564915955550173
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 20668.790218803457
+AIC: 35784.35687858866
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.472554695490091
+RMSE: 3.387115984947975
+MAE: 1.2517586611161988
+RMSLE: 0.22678479528344586
+Mean Residual Deviance: 11.472554695490091
+R^2: 0.807849326550752
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211140.89661579963
+AIC: 97145.26984116125
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.24276   0.0675129   1.32945       1.1894        1.18406       1.30074       1.21017
+mean_residual_deviance  11.2392   2.78819     15.0807       7.94172       12.8395       10.7173       9.61678
+mse                     11.2392   2.78819     15.0807       7.94172       12.8395       10.7173       9.61678
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.812633  0.0288578   0.774464      0.824418      0.802728      0.808653      0.8529
+residual_deviance       41395.9   10411.2     55451.7       29320.8       47981.4       39364.7       34860.8
+rmse                    3.33191   0.414712    3.88339       2.81811       3.58323       3.27373       3.10109
+rmsle                   0.226853  0.00986322  0.236657      0.223988      0.212728      0.235899      0.224991"
+set 46,13.65,0.8387651922273156,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_46_20230924_44917
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.9690445965385015
+RMSE: 1.4032264950956783
+MAE: 0.8046309079470816
+RMSLE: 0.17413082645523872
+Mean Residual Deviance: 1.9690445965385015
+R^2: 0.9583355040590723
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 19792.836284405017
+AIC: 35349.057278225155
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.436921488601785
+RMSE: 3.381851783949407
+MAE: 1.2534591976480012
+RMSLE: 0.22664596025004483
+Mean Residual Deviance: 11.436921488601785
+R^2: 0.8084461373642525
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 210485.10307622724
+AIC: 97088.01894086612
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.24306   0.0634109   1.30284       1.1873        1.18107       1.31608       1.22802
+mean_residual_deviance  11.2443   2.295       13.9747       8.26112       13.045        10.84         10.1006
+mse                     11.2443   2.295       13.9747       8.26112       13.045        10.84         10.1006
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.811979  0.0210757   0.791005      0.817356      0.799572      0.806463      0.845499
+residual_deviance       41412.8   8630.22     51384.8       30500.1       48749         39815.3       36614.8
+rmse                    3.33897   0.345649    3.73827       2.87422       3.61178       3.29242       3.17815
+rmsle                   0.226513  0.00887281  0.233344      0.22403       0.21321       0.235734      0.226246"
+set 47,14.84,0.8415049618838704,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_47_20230924_50257
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.031222884724528
+RMSE: 1.4252097686742566
+MAE: 0.8020177946297352
+RMSLE: 0.1728642039248088
+Mean Residual Deviance: 2.031222884724528
+R^2: 0.9570198268822858
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 20417.852437250956
+AIC: 35661.56962796122
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.494196986453646
+RMSE: 3.3903092759295053
+MAE: 1.2666588718564409
+RMSLE: 0.22718593891978422
+Mean Residual Deviance: 11.494196986453646
+R^2: 0.807486845752533
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211539.20133869292
+AIC: 97179.95518511462
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25719   0.0616982   1.33699       1.20394       1.21551       1.31044       1.2191
+mean_residual_deviance  11.3086   2.95861     14.5933       7.80687       14.1821       10.2772       9.68343
+mse                     11.3086   2.95861     14.5933       7.80687       14.1821       10.2772       9.68343
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.811929  0.0302355   0.781753      0.827399      0.782101      0.816511      0.85188
+residual_deviance       41666.4   11131.6     53659.7       28823         52998.5       37748.2       35102.4
+rmse                    3.33955   0.441594    3.82012       2.79408       3.76591       3.20581       3.11182
+rmsle                   0.227129  0.00900037  0.235156      0.22569       0.213878      0.235927      0.224996"
+set 48,15.15,0.8432004810366018,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_48_20230924_51748
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.0918679205028865
+RMSE: 1.4463291190122967
+MAE: 0.8456490920711288
+RMSLE: 0.17653034746631233
+Mean Residual Deviance: 2.0918679205028865
+R^2: 0.9557365929466671
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 21027.456336895015
+AIC: 35957.2933437456
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.509581198816964
+RMSE: 3.392577368140182
+MAE: 1.259919813655936
+RMSLE: 0.2270864734167355
+Mean Residual Deviance: 11.509581198816964
+R^2: 0.8072291797971675
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211822.3323830274
+AIC: 97204.57123594458
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25671   0.0672719   1.3246        1.20559       1.18666       1.33106       1.23565
+mean_residual_deviance  11.3742   2.50422     14.1972       7.97717       13.3036       11.38         10.0131
+mse                     11.3742   2.50422     14.1972       7.97717       13.3036       11.38         10.0131
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.810114  0.0246079   0.787677      0.823634      0.795598      0.796823      0.846838
+residual_deviance       41893.3   9402.07     52203.1       29451.7       49715.6       41798.6       36297.4
+rmse                    3.3555    0.378893    3.76792       2.82439       3.64741       3.37342       3.16435
+rmsle                   0.227207  0.00921093  0.233916      0.22526       0.213342      0.237092      0.226424"
+set 49,15.99,0.8152967917715904,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_49_20230924_53258
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.9690222739133245
+RMSE: 1.403218541038182
+MAE: 0.8377266521765111
+RMSLE: 0.17263155350502077
+Mean Residual Deviance: 1.9690222739133245
+R^2: 0.9583359764002919
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 19792.611897376737
+AIC: 35348.94332026778
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.615629340001817
+RMSE: 3.408170966956003
+MAE: 1.2448538364864146
+RMSLE: 0.22590836014818233
+Mean Residual Deviance: 11.615629340001817
+R^2: 0.8054530085530485
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 213774.04237339343
+AIC: 97373.36742213336
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.23609   0.0712749   1.32611       1.19062       1.17152       1.29985       1.19234
+mean_residual_deviance  11.4545   2.79312     15.3579       8.24041       12.9679       11.0323       9.67386
+mse                     11.4545   2.79312     15.3579       8.24041       12.9679       11.0323       9.67386
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.808789  0.0297011   0.770318      0.817814      0.800757      0.803029      0.852027
+residual_deviance       42189     10431.1     56471         30423.6       48460.9       40521.8       35067.7
+rmse                    3.36448   0.410413    3.91892       2.87061       3.60109       3.3215        3.11028
+rmsle                   0.225943  0.00909917  0.234648      0.223083      0.212359      0.233859      0.225766"
+set 50,16.68,0.8281088097792494,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_50_20230924_54858
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.795661255231108
+RMSE: 1.3400228562345897
+MAE: 0.7356333094399862
+RMSLE: 0.159715518419278
+Mean Residual Deviance: 1.795661255231108
+R^2: 0.9620042526150094
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227487
+Residual deviance: 18049.986937583097
+AIC: 34422.51309947721
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.489980032207507
+RMSE: 3.3896873059631187
+MAE: 1.2620044162935875
+RMSLE: 0.22601108757458083
+Mean Residual Deviance: 11.489980032207507
+R^2: 0.807557474363144
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 211461.59251274695
+AIC: 97173.20194554866
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.24267   0.0567509   1.30024       1.1827        1.19922       1.30453       1.22664
+mean_residual_deviance  11.3116   2.3532      13.9413       7.79483       12.92         10.8512       11.0507
+mse                     11.3116   2.3532      13.9413       7.79483       12.92         10.8512       11.0507
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.811578  0.0170854   0.791504      0.827665      0.801492      0.806264      0.830966
+residual_deviance       41647.6   8772.18     51262.2       28778.5       48282.1       39856.3       40058.7
+rmse                    3.34771   0.361342    3.73381       2.79192       3.59444       3.29411       3.32426
+rmsle                   0.225565  0.00842651  0.232214      0.223042      0.212947      0.234181      0.225444"
+set 51,14.40,0.8260726220937971,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_51_20230924_60540
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.569858800819735
+RMSE: 1.6030779147688783
+MAE: 0.8697511171516221
+RMSLE: 0.17914162033490136
+Mean Residual Deviance: 2.569858800819735
+R^2: 0.94562242431495
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227487
+Residual deviance: 25832.220665839977
+AIC: 38023.93008208824
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 10.971647896248543
+RMSE: 3.3123477921632176
+MAE: 1.284450581918601
+RMSLE: 0.22862545570666643
+Mean Residual Deviance: 10.971647896248543
+R^2: 0.8162388772100666
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 201922.20788255817
+AIC: 96321.65724665602
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25773   0.0614097   1.33184       1.21784       1.20959       1.31755       1.21185
+mean_residual_deviance  10.7597   2.48463     14.435        8.5723        11.4674       10.983        8.34091
+mse                     10.7597   2.48463     14.435        8.5723        11.4674       10.983        8.34091
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.818947  0.0331408   0.784121      0.810476      0.82381       0.803911      0.872416
+residual_deviance       39631.2   9269.28     53077.4       31648.9       42853.7       40340.4       30235.8
+rmse                    3.26313   0.373626    3.79934       2.92785       3.38636       3.31405       2.88806
+rmsle                   0.227561  0.00861014  0.235272      0.226285      0.214629      0.235663      0.225954"
+set 52,14.94,0.8074380068078355,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_52_20230924_62005
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.6431291640455603
+RMSE: 1.6257703294271182
+MAE: 0.9208838225511181
+RMSLE: 0.19189309803713478
+Mean Residual Deviance: 2.6431291640455603
+R^2: 0.944072041577769
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.6875227488
+Residual deviance: 26568.734356985973
+AIC: 38308.51742047461
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.384145368692545
+RMSE: 3.3740399180644776
+MAE: 1.2861892440945062
+RMSLE: 0.2293600853182285
+Mean Residual Deviance: 11.384145368692545
+R^2: 0.8093300701282937
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 209513.8113654176
+AIC: 97002.89641364821
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27859   0.057578    1.34193       1.23026       1.23732       1.34105       1.24241
+mean_residual_deviance  11.2185   2.41603     14.368        8.00027       12.4971       11.2077       10.0195
+mse                     11.2185   2.41603     14.368        8.00027       12.4971       11.2077       10.0195
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.812575  0.0235256   0.785123      0.823123      0.80799       0.799899      0.84674
+residual_deviance       41311.2   9018.34     52831.1       29537         46701.5       41165.7       36320.7
+rmse                    3.33345   0.365047    3.79051       2.82847       3.53512       3.34778       3.16536
+rmsle                   0.229196  0.00849617  0.236273      0.226858      0.216747      0.237974      0.228127"
+set 53,15.10,0.8120333840994209,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_53_20230924_63503
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/15
+# GBM base models (used / total)           1/8
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.50893772705984
+RMSE: 1.5839626659299264
+MAE: 0.8725958908105002
+RMSLE: 0.1859255811782709
+Mean Residual Deviance: 2.50893772705984
+R^2: 0.950996015013024
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10046
+Null deviance: 514599.6647051907
+Residual deviance: 25217.33309467845
+AIC: 37781.009698805894
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.178782724302685
+RMSE: 3.3434686665651117
+MAE: 1.2787946215069022
+RMSLE: 0.22897353070899534
+Mean Residual Deviance: 11.178782724302685
+R^2: 0.8127696327600014
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098853.2046933188
+Residual deviance: 205734.3172580666
+AIC: 96665.86911007766
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27043   0.0253083   1.26946       1.25157       1.29259       1.29853       1.24002
+mean_residual_deviance  10.8991   2.73112     12.122        9.89484       14.3392       11.168        6.97159
+mse                     10.8991   2.73112     12.122        9.89484       14.3392       11.168        6.97159
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.817183  0.0343626   0.778662      0.856516      0.801469      0.798806      0.850463
+residual_deviance       40197.3   10434.3     44572.4       36531.7       53585.8       41031.3       25265
+rmse                    3.27924   0.426742    3.48166       3.14561       3.78672       3.34186       2.64038
+rmsle                   0.229637  0.00747398  0.220174      0.236737      0.234582      0.233625      0.223069"
+set 54,16.06,0.8249175871476109,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_54_20230924_65010
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.3674709156648914
+RMSE: 1.5386588041748863
+MAE: 0.8601962858299905
+RMSLE: 0.17579280634745909
+Mean Residual Deviance: 2.3674709156648914
+R^2: 0.9499049018344285
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227487
+Residual deviance: 23797.817644263487
+AIC: 37199.37764085373
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.195851623206115
+RMSE: 3.3460202664069616
+MAE: 1.2881963007630775
+RMSLE: 0.22887103752127488
+Mean Residual Deviance: 11.195851623206115
+R^2: 0.8124837504516241
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 206048.45327348536
+AIC: 96695.9487713118
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26683   0.0522319   1.33223       1.22756       1.21955       1.31371       1.24113
+mean_residual_deviance  10.9695   2.60656     14.718        8.47107       12.4595       10.2741       8.92503
+mse                     10.9695   2.60656     14.718        8.47107       12.4595       10.2741       8.92503
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.816244  0.0301019   0.779889      0.812714      0.808568      0.816567      0.863481
+residual_deviance       40408.8   9762.76     54117.9       31275.2       46561.1       37736.7       32353.3
+rmse                    3.2939    0.386872    3.8364        2.91051       3.5298        3.20532       2.98748
+rmsle                   0.228525  0.00783416  0.234591      0.227085      0.216524      0.23642       0.228007"
+set 55,15.14,0.8385319904397335,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_55_20230924_70614
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  3/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.2416318810333546
+RMSE: 1.4972080286430989
+MAE: 0.7824955684712077
+RMSLE: 0.17058699322691942
+Mean Residual Deviance: 2.2416318810333546
+R^2: 0.9562169702899663
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 22530.642036266247
+AIC: 36650.71099399406
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.360383960239968
+RMSE: 3.370516868410536
+MAE: 1.2719919309670027
+RMSLE: 0.22748271706665507
+Mean Residual Deviance: 11.360383960239968
+R^2: 0.8097280434443905
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 209076.50640425636
+AIC: 96964.4427605582
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.2717    0.0479489   1.24477       1.25211       1.33515       1.3075        1.21897
+mean_residual_deviance  11.078    3.20904     11.3623       10.7249       15.7146       10.9221       6.66624
+mse                     11.078    3.20904     11.3623       10.7249       15.7146       10.9221       6.66624
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.815938  0.0329165   0.792532      0.84448       0.782426      0.803237      0.857013
+residual_deviance       40877.4   12258.6     41779.3       39596.2       58725.5       40127.9       24158.4
+rmse                    3.29932   0.49052     3.3708        3.27488       3.96417       3.30486       2.58191
+rmsle                   0.228844  0.00929635  0.217295      0.234477      0.237421      0.234705      0.220321"
+set 56,13.69,0.8261269826629898,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_56_20230924_72123
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.100596741053566
+RMSE: 1.449343555218557
+MAE: 0.784865753710161
+RMSLE: 0.17131442479540834
+Mean Residual Deviance: 2.100596741053566
+R^2: 0.958971635663947
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 21113.097844329393
+AIC: 35997.57035697904
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.498633387647766
+RMSE: 3.3909634895775222
+MAE: 1.2506415266673623
+RMSLE: 0.22574435970861426
+Mean Residual Deviance: 11.498633387647766
+R^2: 0.8074125416851508
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 211620.8488662695
+AIC: 97189.05718406485
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25245   0.0569261  1.21868       1.24526       1.32302       1.29399       1.18129
+mean_residual_deviance  11.2813   4.06556    11.0571       10.8205       17.4158       11.1421       5.97088
+mse                     11.2813   4.06556    11.0571       10.8205       17.4158       11.1421       5.97088
+null_deviance           219771    41523.2    201384        254625        269914        203944        168987
+r2                      0.814254  0.043904   0.798106      0.843093      0.758872      0.799273      0.871928
+residual_deviance       41652.7   15443.1    40656.8       39949.4       65082.9       40936.1       21638.5
+rmse                    3.31388   0.611817   3.32522       3.28946       4.17323       3.33798       2.44354
+rmsle                   0.227097  0.0100245  0.214882      0.234133      0.235696      0.233242      0.21753"
+set 57,13.80,0.8299000234451789,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_57_20230924_73506
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           0/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.771554533787883
+RMSE: 1.330997570917349
+MAE: 0.7276514836789579
+RMSLE: 0.15778660553212023
+Mean Residual Deviance: 1.771554533787883
+R^2: 0.9625143448696419
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227488
+Residual deviance: 17807.6661736358
+AIC: 34284.65114595614
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.628551764392759
+RMSE: 3.410066240469935
+MAE: 1.2509381726497146
+RMSLE: 0.22584439406212817
+Mean Residual Deviance: 11.628551764392759
+R^2: 0.805236574409545
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 214011.86667188432
+AIC: 97391.8305498232
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.23068   0.0677235   1.3082        1.17284       1.17113       1.29883       1.20239
+mean_residual_deviance  11.51     2.63941     15.1747       8.06786       12.7228       11.0007       10.5839
+mse                     11.51     2.63941     15.1747       8.06786       12.7228       11.0007       10.5839
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.808182  0.0242094   0.773059      0.821629      0.804522      0.803593      0.838106
+residual_deviance       42380.2   9814.53     55797.2       29786.5       47545         40405.7       38366.6
+rmse                    3.37456   0.391062    3.89547       2.8404        3.5669        3.31674       3.25329
+rmsle                   0.225326  0.00901003  0.233349      0.221897      0.212315      0.234218      0.22485"
+set 58,16.73,0.8262382059172966,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_58_20230924_74855
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           0/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.9793529375982977
+RMSE: 1.4068947855466298
+MAE: 0.7875894412047775
+RMSLE: 0.15915061139767012
+Mean Residual Deviance: 1.9793529375982977
+R^2: 0.9581173821155681
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.68752274883
+Residual deviance: 19896.45572873809
+AIC: 35399.54423216783
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.137376167878795
+RMSE: 3.337270766341682
+MAE: 1.2669932004160713
+RMSLE: 0.22691688673085939
+Mean Residual Deviance: 11.137376167878795
+R^2: 0.8134631398221375
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 204972.27099364134
+AIC: 96597.5735631058
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25244   0.0625886   1.33451       1.20362       1.20667       1.30548       1.21191
+mean_residual_deviance  10.9723   2.31538     14.3569       8.19537       11.9583       10.3089       10.0423
+mse                     10.9723   2.31538     14.3569       8.19537       11.9583       10.3089       10.0423
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.816541  0.0216407   0.785289      0.81881       0.816268      0.815946      0.846391
+residual_deviance       40400.7   8619.51     52790.2       30257.3       44688.3       37864.4       36403.3
+rmse                    3.29792   0.346575    3.78905       2.86276       3.45808       3.21074       3.16896
+rmsle                   0.226883  0.00870801  0.23479       0.224506      0.214866      0.23603       0.224223"
+set 59,15.20,0.819334534430414,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_59_20230924_80540
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       3/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.150094940065209
+RMSE: 1.4663202037976593
+MAE: 0.7997879079891826
+RMSLE: 0.1687258247902458
+Mean Residual Deviance: 2.150094940065209
+R^2: 0.95450452363525
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10048
+Null deviance: 475067.6875227487
+Residual deviance: 21612.75433753548
+AIC: 36231.26688885706
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.177784208218405
+RMSE: 3.3433193398505034
+MAE: 1.2814266457743908
+RMSLE: 0.22796670981447623
+Mean Residual Deviance: 11.177784208218405
+R^2: 0.8127863566321587
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18400
+Null deviance: 1098849.7334929644
+Residual deviance: 205715.94056805153
+AIC: 96664.22514657622
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.25455   0.0715635   1.32963       1.19944       1.2091        1.33593       1.19866
+mean_residual_deviance  11.0054   2.15336     13.5239       8.24254       12.3694       11.4665       9.42482
+mse                     11.0054   2.15336     13.5239       8.24254       12.3694       11.4665       9.42482
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.815315  0.024428    0.797746      0.817767      0.809951      0.795278      0.855836
+residual_deviance       40533     8093.73     49727.5       30431.5       46224.6       42116.4       34165
+rmse                    3.30434   0.329355    3.67749       2.87098       3.51702       3.38622       3.06999
+rmsle                   0.226726  0.00909465  0.233826      0.224336      0.214203      0.237242      0.224021"
+set 60,15.33,0.8317750627714495,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_60_20230924_82053
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.038550194234839
+RMSE: 1.427778061967209
+MAE: 0.799057499645147
+RMSLE: 0.17111814033715655
+Mean Residual Deviance: 2.038550194234839
+R^2: 0.956864782827983
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 20491.506552448605
+AIC: 35697.76535354717
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.393199380965754
+RMSE: 3.3753813682257823
+MAE: 1.2785473617546435
+RMSLE: 0.22844701501604914
+Mean Residual Deviance: 11.393199380965754
+R^2: 0.8091784269588436
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 209680.44140729375
+AIC: 97017.52762307879
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27162   0.0624986   1.33833       1.23021       1.24032       1.33966       1.20956
+mean_residual_deviance  11.1819   2.66635     14.8248       8.3577        12.8609       10.7247       9.14152
+mse                     11.1819   2.66635     14.8248       8.3577        12.8609       10.7247       9.14152
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.812921  0.0298618   0.778292      0.815221      0.802401      0.808522      0.860169
+residual_deviance       41191.6   9993.71     54510.6       30856.6       48061.1       39391.8       33138
+rmse                    3.32516   0.395589    3.85029       2.89097       3.58621       3.27486       3.02349
+rmsle                   0.228783  0.00825748  0.236167      0.227229      0.218126      0.237925      0.224465"
+set 61,16.03,0.8290762484401303,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_61_20230924_83614
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       6/15
+# GBM base models (used / total)           1/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  3/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.2917891052573474
+RMSE: 1.5138656166441418
+MAE: 0.8282457051207137
+RMSLE: 0.17952627458335357
+Mean Residual Deviance: 2.2917891052573474
+R^2: 0.9552373111153477
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10044
+Null deviance: 514599.6647051907
+Residual deviance: 23034.7722969416
+AIC: 36875.12617838158
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.191789088630282
+RMSE: 3.345413141695698
+MAE: 1.2641551547863266
+RMSLE: 0.2274765313715081
+Mean Residual Deviance: 11.191789088630282
+R^2: 0.8125517927295105
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18398
+Null deviance: 1098853.2046933188
+Residual deviance: 205973.6863871517
+AIC: 96691.26947105711
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26111   0.0348443   1.23197       1.2532        1.31014       1.28223       1.22802
+mean_residual_deviance  10.9344   2.87851     11.64         10.1551       14.8646       11.1457       6.8666
+mse                     10.9344   2.87851     11.64         10.1551       14.8646       11.1457       6.8666
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.817265  0.0326411   0.787462      0.852742      0.794195      0.799209      0.852715
+residual_deviance       40335.2   11008.1     42800.3       37492.7       55549.1       40949.2       24884.6
+rmse                    3.28257   0.445998    3.41174       3.18671       3.85547       3.33851       2.62042
+rmsle                   0.228204  0.00885461  0.216625      0.236553      0.234563      0.232319      0.22096"
+set 62,13.75,0.8237142386833575,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_62_20230924_85216
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/15
+# GBM base models (used / total)           0/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 2.1176599750151563
+RMSE: 1.4552181881130941
+MAE: 0.7799892082065157
+RMSLE: 0.16820064028865764
+Mean Residual Deviance: 2.1176599750151563
+R^2: 0.95863836056833
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10046
+Null deviance: 514599.6647051907
+Residual deviance: 21284.600408877337
+AIC: 36076.88522779878
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.145296050802356
+RMSE: 3.338457136283519
+MAE: 1.2791393807064606
+RMSLE: 0.22794357604654056
+Mean Residual Deviance: 11.145296050802356
+R^2: 0.8133304918742483
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 205118.02851896657
+AIC: 96612.65615302433
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.27297   0.0383573   1.25251       1.24648       1.32023       1.30841       1.23725
+mean_residual_deviance  10.8921   2.97937     11.0607       10.1926       15.2003       11.159        6.84776
+mse                     10.8921   2.97937     11.0607       10.1926       15.2003       11.159        6.84776
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.818375  0.0315134   0.79804       0.852198      0.789547      0.798968      0.853119
+residual_deviance       40183.9   11399.5     40670.1       37631.1       56803.6       40998.3       24816.3
+rmse                    3.27489   0.457147    3.32576       3.19259       3.89876       3.34051       2.61682
+rmsle                   0.229006  0.00879892  0.217456      0.235246      0.236104      0.234645      0.221578"
+set 63,15.64,0.8322369021060073,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_BestOfFamily_1_AutoML_63_20230924_90602
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       4/5
+# GBM base models (used / total)           1/1
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  1/1
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.973317723127914
+RMSE: 1.4047482774959767
+MAE: 0.7610474680674721
+RMSLE: 0.16825777870975192
+Mean Residual Deviance: 1.973317723127914
+R^2: 0.958245085758871
+Null degrees of freedom: 10051
+Residual degrees of freedom: 10047
+Null deviance: 475067.68752274883
+Residual deviance: 19835.789752881792
+AIC: 35370.848012721406
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.9509994611308
+RMSE: 3.4570217617381007
+MAE: 1.2406104545519396
+RMSLE: 0.22536120820404293
+Mean Residual Deviance: 11.9509994611308
+R^2: 0.7998359863343598
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098849.7334929644
+Residual deviance: 219946.19408265126
+AIC: 97897.20716687018
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.23623   0.0711694   1.32046       1.18596       1.17192       1.30637       1.19644
+mean_residual_deviance  11.844    2.72457     14.9525       8.38374       14.2605       11.0194       10.6041
+mse                     11.844    2.72457     14.9525       8.38374       14.2605       11.0194       10.6041
+null_deviance           219770    33572.5     245874        167011        243231        205747        236987
+r2                      0.802596  0.0252134   0.776381      0.814645      0.780896      0.803261      0.837797
+residual_deviance       43627.7   10244.3     54980.4       30952.8       53291.5       40474.1       38439.9
+rmse                    3.42291   0.399555    3.86685       2.89547       3.77631       3.31954       3.2564
+rmsle                   0.225552  0.00959361  0.23362       0.222105      0.211947      0.235777      0.22431"
+set 64,13.81,0.8179614093330765,"Model Details
+=============
+H2OStackedEnsembleEstimator : Stacked Ensemble
+Model Key: StackedEnsemble_AllModels_1_AutoML_64_20230924_92142
+
+
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       5/15
+# GBM base models (used / total)           1/8
+# DRF base models (used / total)           2/2
+# DeepLearning base models (used / total)  2/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on train data. **
+
+MSE: 1.9942672955696876
+RMSE: 1.4121852908063048
+MAE: 0.7812236083863204
+RMSLE: 0.16476855455454104
+Mean Residual Deviance: 1.9942672955696876
+R^2: 0.9610484375287234
+Null degrees of freedom: 10050
+Residual degrees of freedom: 10045
+Null deviance: 514599.6647051907
+Residual deviance: 20044.38058777093
+AIC: 35475.47363172139
+
+ModelMetricsRegressionGLM: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 11.493175495314231
+RMSE: 3.3901586239163253
+MAE: 1.2699622198893061
+RMSLE: 0.22706876960764072
+Mean Residual Deviance: 11.493175495314231
+R^2: 0.8075039544275902
+Null degrees of freedom: 18403
+Residual degrees of freedom: 18399
+Null deviance: 1098853.2046933188
+Residual deviance: 211520.40181576312
+AIC: 97178.31954598648
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     1.26295   0.0432669   1.24291       1.25092       1.31835       1.29371       1.20886
+mean_residual_deviance  11.2424   3.29107     11.5803       11.3773       15.8947       10.7313       6.62856
+mse                     11.2424   3.29107     11.5803       11.3773       15.8947       10.7313       6.62856
+null_deviance           219771    41523.2     201384        254625        269914        203944        168987
+r2                      0.8136    0.0324925   0.788552      0.835019      0.779933      0.806674      0.857821
+residual_deviance       41486.6   12565.4     42580.8       42005.1       59398.3       39426.9       24021.9
+rmse                    3.32266   0.502959    3.40298       3.37303       3.98681       3.27587       2.5746
+rmsle                   0.228055  0.00937614  0.215598      0.234179      0.235993      0.234132      0.220372"

@@ -1,0 +1,8 @@
+﻿model,Frankfurt,Lindau,Munster
+Pretrained DeepLabv3+,81.034,81.381,85.827
+Pretrained DeepLabv3+ and SAM with ,81.801,81.368,86.046
+Pretrained DeepLabv3+ and SAM with ,81.783,81.415,86.119
+Pretrained DeepLabv3+ and SAM with ,81.804,81.410,86.143
+Pretrained DeepLabv3+ and SAM with ,81.802,81.450,86.161
+Pretrained DeepLabv3+ and SAM with ,81.802,81.447,86.083
+Pretrained DeepLabv3+ and SAM with ,81.785,81.477,86.100

@@ -1,0 +1,769 @@
+Feature set,Time,R squared,Optimal Pipeline
+set 1,10.88,0.854755359,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.21
+before_r2                                                   0.850475
+before_mae                                                  1.164888
+before_rmse                                                 2.820578
+after_r2                                                    0.854755
+after_mae                                                   1.117638
+after_rmse                                                  2.779917
+improvement                                                        1
+Name: 1, dtype: object"
+set 2,11.59,0.867362982,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.35
+before_r2                                                   0.855906
+before_mae                                                  1.151433
+before_rmse                                                 2.768887
+after_r2                                                    0.867363
+after_mae                                                   1.055311
+after_rmse                                                  2.656526
+improvement                                                        1
+Name: 1, dtype: object"
+set 3,11.31,0.866447419,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.71
+before_r2                                                   0.866447
+before_mae                                                  1.055561
+before_rmse                                                 2.665679
+after_r2                                                     0.85155
+after_mae                                                   1.176979
+after_rmse                                                  2.810425
+improvement                                                        0
+Name: 1, dtype: object"
+set 4,11.55,0.858809465,"model_type                                             Random Forest
+features           [Area, x, y, Longitude, Latitude, wifi_hk, POI...
+hyperparameters    {'min_samples_leaf': 2, 'min_samples_split': 1...
+Time                                                            9.18
+before_r2                                                   0.841351
+before_mae                                                  1.179368
+before_rmse                                                  2.90536
+after_r2                                                    0.858809
+after_mae                                                   1.121566
+after_rmse                                                  2.740846
+improvement                                                        1
+Name: 0, dtype: object"
+set 5,11.26,0.8674472,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.74
+before_r2                                                   0.867447
+before_mae                                                  1.050174
+before_rmse                                                 2.655683
+after_r2                                                    0.846413
+after_mae                                                   1.180937
+after_rmse                                                  2.858639
+improvement                                                        0
+Name: 1, dtype: object"
+set 6,12.2,0.855664533,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.95
+before_r2                                                   0.855665
+before_mae                                                  1.061495
+before_rmse                                                 2.771203
+after_r2                                                    0.855146
+after_mae                                                   1.159333
+after_rmse                                                   2.77618
+improvement                                                        0
+Name: 1, dtype: object"
+set 7,10.94,0.858466072,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.24
+before_r2                                                   0.858466
+before_mae                                                  1.148362
+before_rmse                                                 2.744177
+after_r2                                                    0.850881
+after_mae                                                   1.163646
+after_rmse                                                  2.816749
+improvement                                                        0
+Name: 1, dtype: object"
+set 8,12.07,0.868266498,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.91
+before_r2                                                   0.868266
+before_mae                                                  1.051958
+before_rmse                                                 2.647463
+after_r2                                                    0.860392
+after_mae                                                   1.122845
+after_rmse                                                   2.72544
+improvement                                                        0
+Name: 1, dtype: object"
+set 9,10.99,0.862455818,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.62
+before_r2                                                   0.862456
+before_mae                                                  1.055269
+before_rmse                                                 2.705222
+after_r2                                                    0.858352
+after_mae                                                   1.104978
+after_rmse                                                  2.745282
+improvement                                                        0
+Name: 1, dtype: object"
+set 10,11.07,0.852666134,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.31
+before_r2                                                   0.852666
+before_mae                                                  1.151885
+before_rmse                                                 2.799839
+after_r2                                                    0.850173
+after_mae                                                   1.164496
+after_rmse                                                  2.823425
+improvement                                                        0
+Name: 1, dtype: object"
+set 11,10.39,0.865612279,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.07
+before_r2                                                   0.862285
+before_mae                                                  1.086041
+before_rmse                                                 2.706899
+after_r2                                                    0.865612
+after_mae                                                   1.052699
+after_rmse                                                  2.674001
+improvement                                                        1
+Name: 1, dtype: object"
+set 12,11.65,0.861622059,"model_type                                                Extra Tree
+features           [Area, x, y, Longitude, Latitude, wifi_hk, POI...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.75
+before_r2                                                   0.859947
+before_mae                                                  1.058756
+before_rmse                                                  2.72978
+after_r2                                                    0.861622
+after_mae                                                    1.06447
+after_rmse                                                  2.713409
+improvement                                                        1
+Name: 1, dtype: object"
+set 13,10.67,0.859084233,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.26
+before_r2                                                   0.859084
+before_mae                                                  1.144124
+before_rmse                                                 2.738177
+after_r2                                                    0.850393
+after_mae                                                   1.172875
+after_rmse                                                  2.821351
+improvement                                                        0
+Name: 1, dtype: object"
+set 14,11.7,0.857871561,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.71
+before_r2                                                   0.857872
+before_mae                                                  1.057725
+before_rmse                                                 2.749934
+after_r2                                                    0.853133
+after_mae                                                   1.148479
+after_rmse                                                  2.795401
+improvement                                                        0
+Name: 1, dtype: object"
+set 15,10.35,0.861118422,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.97
+before_r2                                                   0.861118
+before_mae                                                  1.092027
+before_rmse                                                 2.718342
+after_r2                                                    0.859149
+after_mae                                                   1.101513
+after_rmse                                                  2.737552
+improvement                                                        0
+Name: 1, dtype: object"
+set 16,11.02,0.867624737,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.11
+before_r2                                                   0.867625
+before_mae                                                  1.088397
+before_rmse                                                 2.653904
+after_r2                                                    0.864886
+after_mae                                                   1.056474
+after_rmse                                                  2.681217
+improvement                                                        0
+Name: 1, dtype: object"
+set 17,10.4,0.863232711,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.92
+before_r2                                                   0.863233
+before_mae                                                  1.098176
+before_rmse                                                 2.697571
+after_r2                                                    0.851402
+after_mae                                                   1.161115
+after_rmse                                                  2.811824
+improvement                                                        0
+Name: 1, dtype: object"
+set 18,11.17,0.865257383,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.13
+before_r2                                                   0.865257
+before_mae                                                  1.089822
+before_rmse                                                 2.677529
+after_r2                                                    0.859201
+after_mae                                                    1.07363
+after_rmse                                                  2.737047
+improvement                                                        0
+Name: 1, dtype: object"
+set 19,10.36,0.864121889,"model_type                                                Extra Tree
+features           [Area, x, y, Longitude, Latitude, wifi_hk, POI...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.00
+before_r2                                                   0.859791
+before_mae                                                  1.091819
+before_rmse                                                 2.731307
+after_r2                                                    0.864122
+after_mae                                                   1.101157
+after_rmse                                                  2.688788
+improvement                                                        1
+Name: 1, dtype: object"
+set 20,11.24,0.85967994,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.32
+before_r2                                                   0.849906
+before_mae                                                  1.165707
+before_rmse                                                 2.825945
+after_r2                                                     0.85968
+after_mae                                                   1.070773
+after_rmse                                                  2.732383
+improvement                                                        1
+Name: 1, dtype: object"
+set 21,10.89,0.864090197,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.49
+before_r2                                                    0.86409
+before_mae                                                   1.05658
+before_rmse                                                 2.689101
+after_r2                                                    0.853357
+after_mae                                                   1.153531
+after_rmse                                                  2.793265
+improvement                                                        0
+Name: 1, dtype: object"
+set 22,11.39,0.864808658,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.44
+before_r2                                                   0.864809
+before_mae                                                  1.054322
+before_rmse                                                 2.681984
+after_r2                                                    0.856867
+after_mae                                                   1.102824
+after_rmse                                                  2.759635
+improvement                                                        0
+Name: 1, dtype: object"
+set 23,10.57,0.854840571,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.15
+before_r2                                                   0.843803
+before_mae                                                  1.168482
+before_rmse                                                 2.882822
+after_r2                                                    0.854841
+after_mae                                                   1.153752
+after_rmse                                                  2.779101
+improvement                                                        1
+Name: 1, dtype: object"
+set 24,10.92,0.860834516,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.98
+before_r2                                                   0.856894
+before_mae                                                  1.096297
+before_rmse                                                 2.759373
+after_r2                                                    0.860835
+after_mae                                                   1.091988
+after_rmse                                                  2.721119
+improvement                                                        1
+Name: 1, dtype: object"
+set 25,10.58,0.857030406,"model_type                                                Extra Tree
+features           [Area, x, y, Longitude, Latitude, wifi_hk, POI...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.23
+before_r2                                                   0.850006
+before_mae                                                  1.163943
+before_rmse                                                 2.824998
+after_r2                                                     0.85703
+after_mae                                                   1.152595
+after_rmse                                                  2.758059
+improvement                                                        1
+Name: 1, dtype: object"
+set 26,10.99,0.856391735,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, POI_den...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.03
+before_r2                                                   0.855421
+before_mae                                                  1.103303
+before_rmse                                                 2.773536
+after_r2                                                    0.856392
+after_mae                                                   1.109533
+after_rmse                                                  2.764213
+improvement                                                        1
+Name: 1, dtype: object"
+set 27,10.57,0.860579192,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.19
+before_r2                                                   0.860579
+before_mae                                                  1.088888
+before_rmse                                                 2.723614
+after_r2                                                    0.860202
+after_mae                                                   1.113718
+after_rmse                                                  2.727298
+improvement                                                        0
+Name: 1, dtype: object"
+set 28,10.82,0.865791947,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.98
+before_r2                                                   0.864372
+before_mae                                                  1.095982
+before_rmse                                                 2.686316
+after_r2                                                    0.865792
+after_mae                                                   1.092277
+after_rmse                                                  2.672213
+improvement                                                        1
+Name: 1, dtype: object"
+set 29,10.28,0.862691111,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.00
+before_r2                                                   0.862691
+before_mae                                                  1.090128
+before_rmse                                                 2.702907
+after_r2                                                    0.852422
+after_mae                                                   1.153867
+after_rmse                                                  2.802162
+improvement                                                        0
+Name: 1, dtype: object"
+set 30,11.13,0.851501858,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.27
+before_r2                                                   0.847733
+before_mae                                                  1.172025
+before_rmse                                                 2.846326
+after_r2                                                    0.851502
+after_mae                                                   1.153403
+after_rmse                                                   2.81088
+improvement                                                        1
+Name: 1, dtype: object"
+set 31,10.29,0.865309762,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.92
+before_r2                                                   0.856316
+before_mae                                                  1.104873
+before_rmse                                                 2.764942
+after_r2                                                     0.86531
+after_mae                                                   1.094403
+after_rmse                                                  2.677009
+improvement                                                        1
+Name: 1, dtype: object"
+set 32,10.71,0.864331031,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.00
+before_r2                                                   0.864331
+before_mae                                                   1.08847
+before_rmse                                                 2.686718
+after_r2                                                    0.856705
+after_mae                                                   1.151204
+after_rmse                                                    2.7612
+improvement                                                        0
+Name: 1, dtype: object"
+set 33,10.5,0.855408319,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.15
+before_r2                                                   0.855408
+before_mae                                                  1.161577
+before_rmse                                                 2.773661
+after_r2                                                    0.849449
+after_mae                                                   1.121954
+after_rmse                                                  2.830242
+improvement                                                        0
+Name: 1, dtype: object"
+set 34,11.22,0.864835709,"model_type                                                Extra Tree
+features           [Area, x, y, Longitude, Latitude, POI_density,...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.32
+before_r2                                                   0.853486
+before_mae                                                  1.173031
+before_rmse                                                 2.792039
+after_r2                                                    0.864836
+after_mae                                                   1.074193
+after_rmse                                                  2.681716
+improvement                                                        1
+Name: 1, dtype: object"
+set 35,10.45,0.851187063,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            0.98
+before_r2                                                   0.846686
+before_mae                                                  1.114877
+before_rmse                                                 2.856091
+after_r2                                                    0.851187
+after_mae                                                   1.165479
+after_rmse                                                  2.813858
+improvement                                                        1
+Name: 1, dtype: object"
+set 36,11.2,0.853230147,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.28
+before_r2                                                    0.85323
+before_mae                                                  1.166642
+before_rmse                                                 2.794475
+after_r2                                                    0.853057
+after_mae                                                   1.172588
+after_rmse                                                  2.796123
+improvement                                                        0
+Name: 1, dtype: object"
+set 37,10.5,0.858481845,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 1, 'm...
+Time                                                            1.06
+before_r2                                                   0.858482
+before_mae                                                  1.077523
+before_rmse                                                 2.744024
+after_r2                                                    0.858099
+after_mae                                                   1.071831
+after_rmse                                                  2.747736
+improvement                                                        0
+Name: 1, dtype: object"
+set 38,11.63,0.864993097,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.73
+before_r2                                                   0.864993
+before_mae                                                   1.05358
+before_rmse                                                 2.680154
+after_r2                                                    0.860581
+after_mae                                                   1.117214
+after_rmse                                                    2.7236
+improvement                                                        0
+Name: 1, dtype: object"
+set 39,10.54,0.848242385,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.17
+before_r2                                                   0.848242
+before_mae                                                  1.166662
+before_rmse                                                 2.841561
+after_r2                                                    0.842936
+after_mae                                                   1.172435
+after_rmse                                                  2.890809
+improvement                                                        0
+Name: 1, dtype: object"
+set 40,11.45,0.869443633,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.61
+before_r2                                                   0.869444
+before_mae                                                  1.058908
+before_rmse                                                 2.635608
+after_r2                                                    0.848549
+after_mae                                                    1.11795
+after_rmse                                                  2.838686
+improvement                                                        0
+Name: 1, dtype: object"
+set 41,10.49,0.856815311,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.05
+before_r2                                                   0.856815
+before_mae                                                  1.107424
+before_rmse                                                 2.760133
+after_r2                                                    0.850993
+after_mae                                                    1.07435
+after_rmse                                                  2.815696
+improvement                                                        0
+Name: 1, dtype: object"
+set 42,11.19,0.862945575,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.56
+before_r2                                                   0.861164
+before_mae                                                   1.05649
+before_rmse                                                 2.717895
+after_r2                                                    0.862946
+after_mae                                                   1.053388
+after_rmse                                                  2.700401
+improvement                                                        1
+Name: 1, dtype: object"
+set 43,10.38,0.856695392,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            1.02
+before_r2                                                   0.856695
+before_mae                                                  1.100841
+before_rmse                                                 2.761289
+after_r2                                                    0.854377
+after_mae                                                   1.063569
+after_rmse                                                  2.783535
+improvement                                                        0
+Name: 1, dtype: object"
+set 44,11.56,0.864246334,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.65
+before_r2                                                   0.864246
+before_mae                                                   1.05178
+before_rmse                                                 2.687556
+after_r2                                                    0.850621
+after_mae                                                   1.166335
+after_rmse                                                  2.819206
+improvement                                                        0
+Name: 1, dtype: object"
+set 45,10.79,0.856600512,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.42
+before_r2                                                   0.856601
+before_mae                                                  1.053893
+before_rmse                                                 2.762203
+after_r2                                                    0.847839
+after_mae                                                   1.162209
+after_rmse                                                  2.845331
+improvement                                                        0
+Name: 1, dtype: object"
+set 46,10.94,0.852707636,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.02
+before_r2                                                   0.850011
+before_mae                                                  1.111733
+before_rmse                                                 2.824958
+after_r2                                                    0.852708
+after_mae                                                   1.159291
+after_rmse                                                  2.799445
+improvement                                                        1
+Name: 1, dtype: object"
+set 47,10.54,0.853291654,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.14
+before_r2                                                   0.853292
+before_mae                                                  1.162634
+before_rmse                                                 2.793889
+after_r2                                                    0.848875
+after_mae                                                   1.160225
+after_rmse                                                   2.83563
+improvement                                                        0
+Name: 1, dtype: object"
+set 48,11.09,0.851235838,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.19
+before_r2                                                    0.85072
+before_mae                                                   1.16612
+before_rmse                                                 2.818271
+after_r2                                                    0.851236
+after_mae                                                   1.156106
+after_rmse                                                  2.813396
+improvement                                                        1
+Name: 1, dtype: object"
+set 49,11.03,0.860491894,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.71
+before_r2                                                   0.860492
+before_mae                                                  1.059326
+before_rmse                                                 2.724467
+after_r2                                                    0.852445
+after_mae                                                   1.141945
+after_rmse                                                  2.801938
+improvement                                                        0
+Name: 1, dtype: object"
+set 50,11.46,0.860044824,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.56
+before_r2                                                   0.860045
+before_mae                                                  1.063867
+before_rmse                                                 2.728829
+after_r2                                                    0.854712
+after_mae                                                   1.112666
+after_rmse                                                  2.780328
+improvement                                                        0
+Name: 1, dtype: object"
+set 51,10.73,0.847737503,"model_type                                                Extra Tree
+features           [CCL, Area, x, y, Longitude, Latitude, wifi_hk...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.20
+before_r2                                                   0.846209
+before_mae                                                  1.176445
+before_rmse                                                 2.860538
+after_r2                                                    0.847738
+after_mae                                                   1.166071
+after_rmse                                                  2.846284
+improvement                                                        1
+Name: 1, dtype: object"
+set 52,11.45,0.860886332,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.55
+before_r2                                                   0.860886
+before_mae                                                  1.064121
+before_rmse                                                 2.720612
+after_r2                                                     0.84815
+after_mae                                                   1.108659
+after_rmse                                                  2.842428
+improvement                                                        0
+Name: 1, dtype: object"
+set 53,10.27,0.854422811,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.95
+before_r2                                                   0.854423
+before_mae                                                  1.112676
+before_rmse                                                 2.783098
+after_r2                                                    0.850058
+after_mae                                                   1.161928
+after_rmse                                                  2.824514
+improvement                                                        0
+Name: 1, dtype: object"
+set 54,11.64,0.857302177,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.63
+before_r2                                                   0.857302
+before_mae                                                  1.065359
+before_rmse                                                 2.755437
+after_r2                                                    0.857231
+after_mae                                                   1.059541
+after_rmse                                                  2.756124
+improvement                                                        0
+Name: 1, dtype: object"
+set 55,10.99,0.859963268,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.64
+before_r2                                                   0.859963
+before_mae                                                  1.059137
+before_rmse                                                 2.729624
+after_r2                                                    0.846781
+after_mae                                                   1.172536
+after_rmse                                                  2.855208
+improvement                                                        0
+Name: 1, dtype: object"
+set 56,11.45,0.859743626,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.56
+before_r2                                                   0.859744
+before_mae                                                  1.070668
+before_rmse                                                 2.731763
+after_r2                                                    0.851459
+after_mae                                                   1.114653
+after_rmse                                                  2.811281
+improvement                                                        0
+Name: 1, dtype: object"
+set 57,10.58,0.847935869,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.15
+before_r2                                                   0.847936
+before_mae                                                  1.169696
+before_rmse                                                 2.844429
+after_r2                                                    0.845773
+after_mae                                                   1.169539
+after_rmse                                                  2.864585
+improvement                                                        0
+Name: 1, dtype: object"
+set 58,11.66,0.860673865,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.64
+before_r2                                                   0.860674
+before_mae                                                  1.059381
+before_rmse                                                 2.722689
+after_r2                                                    0.845912
+after_mae                                                   1.166761
+after_rmse                                                  2.863293
+improvement                                                        0
+Name: 1, dtype: object"
+set 59,11.33,0.854970331,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.42
+before_r2                                                    0.85497
+before_mae                                                  1.060962
+before_rmse                                                 2.777859
+after_r2                                                    0.849312
+after_mae                                                   1.167774
+after_rmse                                                  2.831531
+improvement                                                        0
+Name: 1, dtype: object"
+set 60,11.01,0.845969549,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.15
+before_r2                                                    0.84597
+before_mae                                                  1.167655
+before_rmse                                                 2.862761
+after_r2                                                    0.844845
+after_mae                                                     1.1702
+after_rmse                                                  2.873188
+improvement                                                        0
+Name: 1, dtype: object"
+set 61,10.39,0.849283616,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': True, 'min_samples_leaf': 3, 'mi...
+Time                                                            1.06
+before_r2                                                   0.849284
+before_mae                                                  1.169385
+before_rmse                                                 2.831796
+after_r2                                                    0.844863
+after_mae                                                   1.124543
+after_rmse                                                  2.873023
+improvement                                                        0
+Name: 1, dtype: object"
+set 62,10.87,0.854247113,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.91
+before_r2                                                   0.851573
+before_mae                                                  1.109603
+before_rmse                                                 2.810211
+after_r2                                                    0.854247
+after_mae                                                   1.100051
+after_rmse                                                  2.784777
+improvement                                                        1
+Name: 1, dtype: object"
+set 63,10.8,0.86143859,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 3, 'm...
+Time                                                            1.39
+before_r2                                                   0.861439
+before_mae                                                  1.058383
+before_rmse                                                 2.715207
+after_r2                                                    0.847572
+after_mae                                                   1.168001
+after_rmse                                                  2.847834
+improvement                                                        0
+Name: 1, dtype: object"
+set 64,10.77,0.853497558,"model_type                                                Extra Tree
+features           [CCL, Floor, Area, x, y, Longitude, Latitude, ...
+hyperparameters    {'bootstrap': False, 'min_samples_leaf': 5, 'm...
+Time                                                            0.90
+before_r2                                                   0.851819
+before_mae                                                  1.116017
+before_rmse                                                 2.807874
+after_r2                                                    0.853498
+after_mae                                                   1.113916
+after_rmse                                                  2.791928
+improvement                                                        1
+Name: 1, dtype: object"
