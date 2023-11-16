@@ -97,11 +97,10 @@ Our novel machine learning framework use different types of feature extractors a
 Inspried by the work of Martinez-de-Pison et al. (2019)[^1], we propose a hybrid method of BOHB and RFECV to integrate feature selection and hyperparameter optimization. The flowchart is shown as below:
 
 ```mermaid
-graph TD；
+flowchart TD；
 A[Stage 1: Use BOHB to search the optimal hyperparameters with All features] -->B[Stage 2: Use RFECV to select the optimal features with best hyperparameters of Stage 1]；
 B[Stage 2: Use RFECV to select the optimal features with best hyperparameters of Stage 1]-->C[Stage 3: Use BOHB to search the optimal hyperparameters with the optimal features of Stage 2]；
-C[Stage 3: Use BOHB to search the optimal hyperparameters with the optimal features of Stage 2]-->D[Compare the optimal hyperparameters with all features in Stage 1 AND
-optimal hyperparameters of Stage 3 with optimal features in Stage 2 ]；
+C[Stage 3: Use BOHB to search the optimal hyperparameters with the optimal features of Stage 2]-->D[Compare the optimal hyperparameters with all features in Stage 1 ANDoptimal hyperparameters of Stage 3 with optimal features in Stage 2 ]；
 ```
 
 ### 4. Pipeline Execution and Application
