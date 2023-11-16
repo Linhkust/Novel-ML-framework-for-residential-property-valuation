@@ -58,7 +58,7 @@ Find out the source codes of the package and copy the scripts to the path where 
 
 Our study uses the pre-trained Deeplabv3+ from [VainF](https://github.com/VainF/DeepLabV3Plus-Pytorch). Detailed codes of how to implement the semantic segmentation can be found on his Github page (truly thanks). The segmentation results of panoramas, GSVs, and validation datasets can be downloaded [here]() via Baidu Cloud.
 
-#### - [x] How to get the image masks using the Segment Anything Model?
+#### [x] How to get the image masks using the Segment Anything Model?
 
  Following the procedures of [SAM](https://github.com/facebookresearch/segment-anything), we can use the command line to run amg.py in main/feature engineering/deeplabv3+:
 
