@@ -20,7 +20,7 @@ Automated valuation model (AVM) has been widely used by the real estate industry
 
 ## Research Methodology
 
-![Methodology](C:\Users\94899\Desktop\文件\Novel ML framework for residential property valuation\paper images\image-Research Framework.png)
+![Methodology](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-Research%20Framework.png)
 
 
 
@@ -34,7 +34,7 @@ This part mainly deals with tabular data clean and image retrieval (Google stree
 
 Procedures of Google street view image retrieving:
 
-![SVI](C:\Users\94899\Desktop\文件\Novel ML framework for residential property valuation\paper images\image-SVI collection.png)
+![SVI](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-SVI%20collection.png)
 
 
 
@@ -90,7 +90,7 @@ The validation data sets include the ground truth and segmentation results of th
 
 Our novel machine learning framework use different types of feature extractors and generators. Different combined features are integrated with four base models: Random forest, Extra Tree, XGBoost and LightGBM. The machine learning pipeline is generated with following workflow:
 
-![](C:\Users\94899\Desktop\文件\Novel ML framework for residential property valuation\paper images\image-preprocessor.png)
+![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-preprocessor.png)
 
 #### Hybrid method of BOHB and RFECV
 
@@ -160,12 +160,12 @@ def pipelines_fit_stream(self, pipelines):
 
 We send our 64 datasets to TPOT, H2O and our proposed machine learning framework using one PC. The distribution of R squared and execution time for one dataset are shown as follwoings. The results show that our proposed machine learning framework outperforms H2O and TPOT in terms of prediction accuracy and execution time.
 
-![](C:\Users\94899\Desktop\文件\Novel ML framework for residential property valuation\paper images\performance.png)
+![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/performance.png)
 
-![](C:\Users\94899\Desktop\文件\Novel ML framework for residential property valuation\paper images\benchmark_time.png)
+![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/benchmark_time.png)
 
-![](C:\Users\94899\Desktop\文件\Novel ML framework for residential property valuation\paper images\r2_set.png)
+![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/r2_set.png)
 
-![](C:\Users\94899\Desktop\文件\Novel ML framework for residential property valuation\paper images\time_set.png)
+![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/time_set.png)
 
 [^1]: Martinez-de-Pison, F. J., Gonzalez-Sendino, R., Aldama, A., Ferreiro-Cabello, J., & Fraile-Garcia, E. (2019). Hybrid methodology based on Bayesian optimization and GA-PARSIMONY to search for parsimony models by combining hyperparameter optimization and feature selection. Neurocomputing, 354, 20–26. https://doi.org/10.1016/j.neucom.2018.05.136
