@@ -28,17 +28,17 @@ The automated valuation model (AVM) has been widely used by the real estate indu
 
 ### 1. Data Preparation
 
-This part mainly deals with tabular data cleaning and image retrieval (Google Street view images and estate photos). You can download our collected Google street view images here, and estate photos [here](https://pan.baidu.com/s/14Ki5E8FDu3HdqKUSosJXqw?pwd=irhh ) via Baidu Cloud. Remote sensing images are imported into ArcGIS Pro to calculate NDVI, NDWI, and NDBI. We have collected the Landsat-8 GeoTIFF files and stored them in the collected data/Landsat8. 
+This part mainly deals with tabular data cleaning and image retrieval (Google Street View images and estate photos). You can download our collected Google street view images here, and estate photos [here](https://pan.baidu.com/s/14Ki5E8FDu3HdqKUSosJXqw?pwd=irhh ) via Baidu Cloud. Remote sensing images are imported into ArcGIS Pro to calculate NDVI, NDWI, and NDBI. We have collected the Landsat-8 GeoTIFF files and stored them in the collected data/Landsat8. 
 
 
 
-Procedures of Google street view image retrieving:
+Procedures of Google Street View image retrieval:
 
 ![SVI](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-SVI%20collection.png)
 
 
 
-If you find some python packages are not installed, you can use the command line to install them:
+If you find some Python packages are not installed, you can use the command line to install them:
 
 ```
 pip install <package_name>
@@ -56,7 +56,7 @@ Find out the source codes of the package and copy the scripts to the path where 
 
 ### 2. Feature Engineering
 
-Our study uses the pre-trained Deeplabv3+ from [VainF](https://github.com/VainF/DeepLabV3Plus-Pytorch). Detailed codes of how to implement the semantic segmentation can be found on his Github page (truly thanks). The segmentation results of panoramas, GSVs, and validation datasets can be downloaded [here]() via Baidu Cloud.
+Our study uses the pre-trained Deeplabv3+ from [VainF](https://github.com/VainF/DeepLabV3Plus-Pytorch). Detailed codes of how to implement the semantic segmentation can be found on his Github page (truly thanks). The segmentation results of panoramas, GSVs, and validation datasets can be downloaded [here](https://drive.google.com/file/d/1kRfEm9HWoQXxguyI13AsyQwEFI_i2QR4/view?usp=sharing).
 
 #### How to get the image masks using the Segment Anything Model?
 
