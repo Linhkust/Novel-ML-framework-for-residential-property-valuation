@@ -52,7 +52,7 @@ conda install <package_name>
 
 or
 
-Find out the source codes of the package and copy the scripts to the path where you store your Python packages. For example, it seems not workable you install HypersearchCV using pip or conda.
+Find out the source codes of the package and copy the scripts to the path where you store your Python packages. For example, it seems not workable you install HpBandSterSearchCV using pip or conda.
 
 ### 2. Feature Engineering
 
