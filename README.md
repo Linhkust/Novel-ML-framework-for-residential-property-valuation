@@ -66,7 +66,7 @@ Our study uses the pre-trained Deeplabv3+ from [VainF](https://github.com/VainF/
 python amg.py --checkpoint <path/to/checkpoint> --model-type <model_type> --input <image_or_folder> --output <path/to/output>
 ```
 
-* **checkpoint:** The path of pre-trained model (sam_vit_b_01ec64.pth, sam_vit_h_4b8939.pth, sam_vit_l_0b3195.pth)
+* **[checkpoint](https://pan.quark.cn/s/44f82b75eb06):** The path of pre-trained model (sam_vit_b_01ec64.pth, sam_vit_h_4b8939.pth, sam_vit_l_0b3195.pth)
 * **model_type:** 'vit_h', 'vit_l', 'vit_b'
 * **input:** directory of the images you want to create masks
 * **output:** directory of the generated masks
