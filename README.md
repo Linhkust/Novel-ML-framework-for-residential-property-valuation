@@ -80,7 +80,7 @@ The [Cityscapes Dataset](https://www.cityscapes-dataset.com/) is intended for
 * assessing the performance of vision algorithms for major tasks of semantic urban scene understanding: pixel-level, instance-level, and panoptic semantic labeling;
 * supporting research that aims to exploit large volumes of (weakly) annotated data, e.g. for training deep neural networks.
 
-The validation data sets include the ground truth and segmentation results of three cities: frankfurt, lindau, and munster. All Cityscapes datasets can be downloaded [here]().
+The validation data sets include the ground truth and segmentation results of three cities: frankfurt, lindau, and munster. All Cityscapes datasets can be downloaded [here](https://drive.google.com/file/d/1J1B3Jc80RqGpHR4SO-WzXK5uVOwz0PZQ/view?usp=sharing).
 
 
 
