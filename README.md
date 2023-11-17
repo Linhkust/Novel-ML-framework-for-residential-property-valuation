@@ -28,7 +28,7 @@ The automated valuation model (AVM) has been widely used by the real estate indu
 
 ### 1. Data Preparation
 
-This part mainly deals with tabular data cleaning and image retrieval (Google Street View images and estate photos). You can download our collected Google street view images here, and estate photos [here](https://pan.baidu.com/s/14Ki5E8FDu3HdqKUSosJXqw?pwd=irhh ) via Baidu Cloud. Remote sensing images are imported into ArcGIS Pro to calculate NDVI, NDWI, and NDBI. We have collected the Landsat-8 GeoTIFF files and stored them in the collected data/Landsat8. 
+This part mainly deals with tabular data cleaning and image retrieval (Google Street View images and estate photos). You can download our collected Google street view images [here](https://pan.quark.cn/s/b7befcbb258d), and estate photos [here](https://pan.baidu.com/s/14Ki5E8FDu3HdqKUSosJXqw?pwd=irhh ). Remote sensing images are imported into ArcGIS Pro to calculate NDVI, NDWI, and NDBI. We have collected the Landsat-8 GeoTIFF files and you can download [here](https://pan.quark.cn/s/ec04f161b51b). 
 
 
 
