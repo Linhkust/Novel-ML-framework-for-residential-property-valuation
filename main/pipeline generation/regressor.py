@@ -36,10 +36,6 @@ class Regressor(object):
         basic_variables = ['CCL',
                            'Floor',
                            'Area',
-                           'x',
-                           'y',
-                           'Longitude',
-                           'Latitude',
                            'wifi_hk',
                            'POI_density',
                            'Num_class',
@@ -48,18 +44,20 @@ class Regressor(object):
                            'Type_diversity']
 
         selected_variables = []
-        for threshold1 in self.poi_thresholds:
-            for threshold2 in self.gsv_thresholds:
-                for threshold3 in self.rs_thresholds:
-                    for cnn_type in self.cnn_types:
-                        for dimensions in [['2d1', '2d2'], ['3d1', '3d2', '3d3']]:
-                            variables = basic_variables + \
-                                        [x + '_Walk{}'.format(threshold1) for x in selected_poi] + \
-                                        [x + '{}'.format(threshold2) for x in ['sky', 'building', 'vegetation']] + \
-                                        [x + '{}'.format(threshold3) for x in ['NDVI', 'NDWI', 'NDBI']] + \
-                                        [cnn_type + '_' + dimension for dimension in dimensions] + \
-                                        ['Price']
-                            selected_variables.append(variables)
+        for coordinates in [['x', 'y'], ['Longitude', 'Latitude']]:
+            for threshold1 in self.poi_thresholds:
+                for threshold2 in self.gsv_thresholds:
+                    for threshold3 in self.rs_thresholds:
+                        for cnn_type in self.cnn_types:
+                            for dimensions in [['2d1', '2d2'], ['3d1', '3d2', '3d3']]:
+                                variables = basic_variables + \
+                                            coordinates + \
+                                            [x + '_Walk{}'.format(threshold1) for x in selected_poi] + \
+                                            [x + '{}'.format(threshold2) for x in ['sky', 'building', 'vegetation']] + \
+                                            [x + '{}'.format(threshold3) for x in ['NDVI', 'NDWI', 'NDBI']] + \
+                                            [cnn_type + '_' + dimension for dimension in dimensions] + \
+                                            ['Price']
+                                selected_variables.append(variables)
 
         models = ['Extra Tree', 'Random Forest', 'XGBoost', 'LightGBM']
         for variable in selected_variables:
