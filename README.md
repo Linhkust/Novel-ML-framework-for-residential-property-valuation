@@ -9,7 +9,7 @@
 
 ## Abstract
 
-The automated valuation model (AVM) has been widely used by the real estate industry and financial institutions for automatic residential property valuation. Different machine learning (ML) models have been applied to develop the AVM due to their superior performances compared to traditional linear and spatial regression models. However, research on comprehensive machine learning pipelines considering different types of feature extractors and generators for AVM development from scratch is still lacking. Current AVM mainly uses numerical property and locational variables for property valuation, and how images are utilized for AVM development requires further exploration. Therefore, this paper proposes a novel machine-learning pipeline considering different types of feature extractors and generators and multi-source image fusion, including exterior estate photos, street view images, and remote sensing images. Our proposed method includes three stages: data collection, tree-based ML pipeline creation, pipeline configuration, and application. Distributed computing is applied to execute the tree-based ML pipelines, followed by optimal pipeline selection using statistical tests and pipeline application. The results show that image-based features contribute significantly to housing price predictions and should be well considered in AVM development. Features extracted from street view images and remote sensing images have greater importance than those of exterior estate photos. We benchmarked the proposed method with two open-source automated machine learning (AutoML) frameworks: H2O and TPOT. The results show that our proposed machine-learning framework outperforms H2O and TPOT in terms of prediction accuracy and execution time.
+The automated valuation model (AVM) has been widely used by the real estate industry and financial institutions for automatic residential property valuation. Different machine learning (ML) models have been applied to develop the AVM due to their superior performances compared to traditional linear and spatial regression models. However, research on comprehensive machine learning pipelines considering different types of feature extractors and generators for AVM development from scratch is still lacking. Current AVM mainly uses numerical property and locational variables for property valuation, and how images are utilized for AVM development requires further exploration. Therefore, this paper proposes a novel machine-learning pipeline considering different types of feature extractors and generators and multi-source image fusion, including exterior estate photos, street view images, and remote sensing images. Our proposed method includes three stages: data collection, tree-based ML pipeline creation, pipeline configuration, and application. Distributed computing is applied to execute the tree-based ML pipelines, followed by optimal pipeline selection using statistical tests and pipeline application. The results show that image-based features contribute significantly to housing price predictions and should be well considered in AVM development. Features extracted from street view images and remote sensing images have greater importance than those of exterior estate photos.
 
 * We examined the effects of exterior housing photos, Google street view images, and remote sensing images on the housing price prediction accuracy.
 * We improved the classical semantic segmentation model's performance with the computer vision foundation model for more accurate feature extraction
@@ -144,24 +144,5 @@ def pipelines_fit_stream(self, pipelines):
 
     pred_results.to_csv('./collected data/results/Pipelines.csv', index=False)
 ```
-
-
-
-#### Benchmark with TOPT and H2O
-
-* [TPOT](https://github.com/EpistasisLab/tpot) is based on genetic programming and Pareto optimization to flexibly automate the process of designing and optimizing machine learning pipelines. It generates tree-based pipelines and uses genetic programming (GP) to output the best pipeline. 
-* [H2O](https://github.com//h2oai/h2o-3/blob/master/h2o-docs/src/product/automl.rst) is a distributed machine learning platform that automates the process of training a large selection of candidate models and stacked ensembles.
-
-
-
-We send our 64 datasets to TPOT, H2O, and our proposed machine learning framework using one PC. The distribution of R squared and execution time for one dataset are shown as follows. The results show that our proposed machine-learning framework outperforms H2O and TPOT in terms of prediction accuracy and execution time.
-
-![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/performance.png)
-
-![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/benchmark_time.png)
-
-![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/r2_set.png)
-
-![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/time_set.png)
 
 [^1]: Martinez-de-Pison, F. J., Gonzalez-Sendino, R., Aldama, A., Ferreiro-Cabello, J., & Fraile-Garcia, E. (2019). Hybrid methodology based on Bayesian optimization and GA-PARSIMONY to search for parsimony models by combining hyperparameter optimization and feature selection. Neurocomputing, 354, 20–26. https://doi.org/10.1016/j.neucom.2018.05.136
