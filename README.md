@@ -73,13 +73,7 @@ The validation data sets include the ground truth and segmentation results of th
 
 Our novel machine-learning framework uses different types of feature extractors and generators. Different combined features are integrated with four base models: Random Forest, Extra Tree, XGBoost, and LightGBM. The machine learning pipeline is generated with the following workflow:
 
-![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-preprocessor.png)
-
-#### Hybrid method of BOHB and RFECV
-
-Inspired by the work of Martinez-de-Pison et al. (2019)[^1], we propose a hybrid method of BOHB and RFECV to integrate feature selection and hyperparameter optimization. The flowchart is shown as below:
-
-![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/BOHB_RFECV.png)
+![](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-ML%20pipeline%20generation.png)
 
 ### 4. Pipeline Execution and Application
 
