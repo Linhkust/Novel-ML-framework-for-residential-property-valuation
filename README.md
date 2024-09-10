@@ -11,11 +11,11 @@
 
 Different machine learning (ML) models have been developed for real estate valuation, achieving superior performance compared to traditional models. These ML models usually use structured tabular data, overlooking the roles of multi-source unstructured data such as images. Most pre-vious studies use single feature configuration space for model training without considering the model performance sensitivity brought by various feature configuration parameters. To fill the gaps, this paper fuses multi-source image data, explores different feature configuration parameters to enrich feature configuration space, adopts four tree-based ML models including Random Forest (RF), Extremely Randomized Trees (Extra Tree), Extreme Gradient Boosting (XGBoost), and Light Gradient Boosting Machine (LightGBM), applies distributed computing techniques for ML pipeline training, and utilizes explainable artificial intelligence (XAI) methods for global and local model interpretability analysis. Results show that model performances with different feature combina-tions are significantly different, and it is necessary to test various feature configuration parameters for model training. Performances of RF and Extra Tree are significantly better than XGBoost and LightGBM. The best model pipeline is formulated based on Extra Tree. Incorporating multi-source image features can improve the model prediction accuracy. The image features show significant nonlinear effects on the housing prices, which facilitate public authorities, urban planners and real estate developers in the process of urban planning and design and project site selection.
 
--[x]fusing the multi-source images of exterior estate photos, street view images, and remote sensing images
--[x]utilizing multiple image feature extraction networks and circular dis-tance ranges to formulate a series of ML pipelines
--[x]using the server-client distributed computing technique to speed up the training process of ML pipelines
--[x]evaluating the ML pipelines’ performances against a set of metrics to identify the best one
--[x]enhancing the interpretability of the ML-based approach by analyzing the model-based global feature importance and the SHAP-based local feature importance.
+- [x]fusing the multi-source images of exterior estate photos, street view images, and remote sensing images
+- [x]utilizing multiple image feature extraction networks and circular dis-tance ranges to formulate a series of ML pipelines
+- [x]using the server-client distributed computing technique to speed up the training process of ML pipelines
+- [x]evaluating the ML pipelines’ performances against a set of metrics to identify the best one
+- [x]enhancing the interpretability of the ML-based approach by analyzing the model-based global feature importance and the SHAP-based local feature importance.
 
 
 ## Research Methodology
