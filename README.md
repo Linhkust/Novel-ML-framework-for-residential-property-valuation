@@ -58,20 +58,6 @@ Find out the source codes of the package and copy the scripts to the path where 
 
 Our study uses the pre-trained Deeplabv3+ from [VainF](https://github.com/VainF/DeepLabV3Plus-Pytorch). Detailed codes of how to implement the semantic segmentation can be found on his Github page (truly thanks). The segmentation results of panoramas, GSVs, and validation datasets can be downloaded [here](https://drive.google.com/file/d/1kRfEm9HWoQXxguyI13AsyQwEFI_i2QR4/view?usp=sharing).
 
-#### How to get the image masks using the Segment Anything Model?
-
- Following the procedures of [SAM](https://github.com/facebookresearch/segment-anything), we can use the command line to run amg.py in main/feature engineering/deeplabv3+:
-
-```
-python amg.py --checkpoint <path/to/checkpoint> --model-type <model_type> --input <image_or_folder> --output <path/to/output>
-```
-
-* **[checkpoint](https://pan.quark.cn/s/44f82b75eb06):** The path of pre-trained model (sam_vit_b_01ec64.pth, sam_vit_h_4b8939.pth, sam_vit_l_0b3195.pth)
-* **model_type:** 'vit_h', 'vit_l', 'vit_b'
-* **input:** directory of the images you want to create masks
-* **output:** directory of the generated masks
-
-
 
 #### Validation sets of the Cityscapes Datasets
 
