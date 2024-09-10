@@ -20,7 +20,7 @@ Different machine learning (ML) models have been developed for real estate valua
 
 ## Research Methodology
 
-![Methodology](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-Research%20Framework.png)
+![Methodology](https://github.com/Linhkust/Novel-ML-framework-for-residential-property-valuation/blob/main/paper%20images/image-new%20method_V1.png)
 
 
 
