@@ -58,7 +58,6 @@ Find out the source codes of the package and copy the scripts to the path where 
 
 Our study uses the pre-trained Deeplabv3+ from [VainF](https://github.com/VainF/DeepLabV3Plus-Pytorch). Detailed codes of how to implement the semantic segmentation can be found on his Github page (truly thanks). The segmentation results of panoramas, GSVs, and validation datasets can be downloaded [here](https://drive.google.com/file/d/1kRfEm9HWoQXxguyI13AsyQwEFI_i2QR4/view?usp=sharing).
 
-
 #### Validation sets of the Cityscapes Datasets
 
 The [Cityscapes Dataset](https://www.cityscapes-dataset.com/) is intended for
@@ -67,8 +66,6 @@ The [Cityscapes Dataset](https://www.cityscapes-dataset.com/) is intended for
 * supporting research that aims to exploit large volumes of (weakly) annotated data, e.g. for training deep neural networks.
 
 The validation data sets include the ground truth and segmentation results of three cities: frankfurt, lindau, and munster. All Cityscapes datasets can be downloaded [here](https://drive.google.com/file/d/1J1B3Jc80RqGpHR4SO-WzXK5uVOwz0PZQ/view?usp=sharing).
-
-
 
 ### 3. Model Generation
 
